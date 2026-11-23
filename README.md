@@ -30,10 +30,29 @@ I care about clean code, security-minded engineering, and tools that are straigh
 
 ### `~/projects`
 
-```text
-$ ls -la ~/projects/public
-> Rebuilding my public portfolio from scratch — cleaner, better-engineered projects coming soon.
-```
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>gta6-auto-cortes</strong> &nbsp;<sub><code>🔒 private</code></sub><br/>
+      Automated video clipping pipeline with a web interface, containerized workflows, and GPU/Intel hardware acceleration.<br/>
+      <sub><code>Python</code> · <code>Svelte</code> · <code>TypeScript</code> · <code>Docker</code></sub>
+    </td>
+    <td width="50%" valign="top">
+      <strong>n8n-ai-automation-pack</strong> &nbsp;<sub><code>🔒 private</code></sub><br/>
+      Curated pack of 5 AI-powered automation workflows built for n8n, packaged in both English and Portuguese.<br/>
+      <sub><code>n8n</code> · <code>AI</code> · <code>Automation</code></sub>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <strong>prospeccao-teresina</strong> &nbsp;<sub><code>🔒 private</code></sub><br/>
+      Local business prospecting toolkit combining automated lead pipelines, Kanban tracking, and custom landing page generation.<br/>
+      <sub><code>Python</code> · <code>JavaScript</code> · <code>HTML5</code> · <code>CSS3</code></sub>
+    </td>
+  </tr>
+</table>
+
+<sub>*Selected private projects currently in active development. New public open-source repositories coming soon.*</sub>
 
 ### `~/stack`
 

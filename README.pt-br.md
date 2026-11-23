@@ -30,10 +30,29 @@ Valorizo código limpo, boas práticas de segurança e ferramentas práticas, f�
 
 ### `~/projetos`
 
-```text
-$ ls -la ~/projetos/publicos
-> Reconstruindo meu portfólio público do zero — novos projetos mais bem estruturados em breve.
-```
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>gta6-auto-cortes</strong> &nbsp;<sub><code>🔒 privado</code></sub><br/>
+      Pipeline automatizado de cortes de vídeo com interface web, containers Docker e aceleração via GPU/Intel.<br/>
+      <sub><code>Python</code> · <code>Svelte</code> · <code>TypeScript</code> · <code>Docker</code></sub>
+    </td>
+    <td width="50%" valign="top">
+      <strong>n8n-ai-automation-pack</strong> &nbsp;<sub><code>🔒 privado</code></sub><br/>
+      Pacote com 5 fluxos de automação com IA no n8n, estruturado em versões em português e inglês.<br/>
+      <sub><code>n8n</code> · <code>IA</code> · <code>Automação</code></sub>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <strong>prospeccao-teresina</strong> &nbsp;<sub><code>🔒 privado</code></sub><br/>
+      Sistema de prospecção local combinando automação de leads, acompanhamento em Kanban e geração de sites sob medida.<br/>
+      <sub><code>Python</code> · <code>JavaScript</code> · <code>HTML5</code> · <code>CSS3</code></sub>
+    </td>
+  </tr>
+</table>
+
+<sub>*Projetos privados em desenvolvimento ativo. Novos repositórios públicos open-source em breve.*</sub>
 
 ### `~/stack`
 
