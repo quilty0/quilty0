@@ -14,7 +14,7 @@
 
 Hi, I'm **Manuel Ferreira** (`@quilty0`).
 
-I build web applications, smartwatch monitoring solutions, and interactive data dashboards—while diving deeper into **cybersecurity**, networking, and automation. Most of my projects start from practical, real-world problems: turning raw datasets into clear visualizations with Python and Streamlit, or crafting clean interfaces with TypeScript and React.
+I build web applications, automation workflows, and interactive data dashboards—while diving deeper into **cybersecurity**, networking, and Linux. Most of my projects start from practical, real-world problems: turning raw datasets into clear visualizations with Python and Streamlit, or crafting clean interfaces with TypeScript and React.
 
 I care about clean code, security-minded engineering, and tools that are straightforward to use and maintain.
 
@@ -24,50 +24,16 @@ I care about clean code, security-minded engineering, and tools that are straigh
 {
   "building": ["web apps in TypeScript", "Python data dashboards", "automation workflows"],
   "exploring": ["cybersecurity fundamentals", "networking & Linux hardening", "security tooling"],
-  "status": "learning in public & shipping practical projects"
+  "status": "rebuilding my public portfolio & shipping practical projects"
 }
 ```
 
 ### `~/projects`
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/quilty0/analise-dados-jogos"><strong>analise-dados-jogos</strong></a><br/>
-      Interactive game sales data analysis dashboard by genre built with Python and Streamlit.<br/>
-      <sub><code>Python</code> · <code>Streamlit</code> · <code>Pandas</code></sub>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/quilty0/guardiao-atento"><strong>guardiao-atento</strong></a><br/>
-      Elderly patient monitoring web platform focused on real-time care and alerts.<br/>
-      <sub><code>TypeScript</code> · <code>Web App</code></sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/quilty0/guardiao-atento-watch"><strong>guardiao-atento-watch</strong></a><br/>
-      Companion smartwatch monitoring application for the Guardião Atento ecosystem.<br/>
-      <sub><code>TypeScript</code> · <code>Wearables</code></sub>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/quilty0/Barbercare"><strong>Barbercare</strong></a><br/>
-      Web application for barbershop management, scheduling, and customer service.<br/>
-      <sub><code>TypeScript</code> · <code>Frontend</code></sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/quilty0/analise-dados-alunos"><strong>analise-dados-alunos</strong></a><br/>
-      Exploratory data analysis of student performance metrics and trends.<br/>
-      <sub><code>Python</code> · <code>Data Analysis</code></sub>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/quilty0/portfolio"><strong>portfolio</strong></a><br/>
-      Personal developer portfolio built with a focus on clean layout and responsiveness.<br/>
-      <sub><code>HTML5</code> · <code>CSS3</code> · <code>JavaScript</code></sub>
-    </td>
-  </tr>
-</table>
+```text
+$ ls -la ~/projects/public
+> Rebuilding my public portfolio from scratch — cleaner, better-engineered projects coming soon.
+```
 
 ### `~/stack`
 
@@ -136,5 +102,5 @@ I care about clean code, security-minded engineering, and tools that are straigh
 
 <p align="center">
   <a href="https://github.com/quilty0"><img src="https://img.shields.io/badge/github-@quilty0-0b0f14?style=for-the-badge&logo=github&logoColor=00e5a0" alt="GitHub"></a>
-  <a href="https://github.com/quilty0/portfolio"><img src="https://img.shields.io/badge/portfolio-quilty0-0b0f14?style=for-the-badge&logo=vercel&logoColor=38bdf8" alt="Portfolio"></a>
+  <a href="https://github.com/quilty0?tab=repositories"><img src="https://img.shields.io/badge/repos-explore-0b0f14?style=for-the-badge&logo=git&logoColor=38bdf8" alt="Repositories"></a>
 </p>

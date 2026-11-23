@@ -14,7 +14,7 @@
 
 Olá, eu sou o **Manuel Ferreira** (`@quilty0`).
 
-Desenvolvo aplicações web, soluções de monitoramento para smartwatches e dashboards interativos de análise de dados — enquanto me aprofundo em **cibersegurança**, redes e automação. A maioria dos meus projetos nasce de problemas reais: transformar dados brutos em visualizações claras com Python e Streamlit, ou construir interfaces responsivas com TypeScript e React.
+Desenvolvo aplicações web, fluxos de automação e dashboards interativos de análise de dados — enquanto me aprofundo em **cibersegurança**, redes e Linux. A maioria dos meus projetos nasce de problemas reais: transformar dados brutos em visualizações claras com Python e Streamlit, ou construir interfaces responsivas com TypeScript e React.
 
 Valorizo código limpo, boas práticas de segurança e ferramentas práticas, fáceis de usar e manter.
 
@@ -24,50 +24,16 @@ Valorizo código limpo, boas práticas de segurança e ferramentas práticas, f�
 {
   "construindo": ["apps web em TypeScript", "dashboards de dados em Python", "fluxos de automação"],
   "explorando": ["fundamentos de cibersegurança", "redes & hardening Linux", "ferramentas de segurança"],
-  "status": "aprendendo em público e publicando projetos práticos"
+  "status": "reconstruindo o portfólio público e publicando projetos práticos"
 }
 ```
 
 ### `~/projetos`
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/quilty0/analise-dados-jogos"><strong>analise-dados-jogos</strong></a><br/>
-      Análise de dados de vendas de jogos por gênero com painel interativo em Python e Streamlit.<br/>
-      <sub><code>Python</code> · <code>Streamlit</code> · <code>Pandas</code></sub>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/quilty0/guardiao-atento"><strong>guardiao-atento</strong></a><br/>
-      Plataforma web para monitoramento de pacientes idosos com foco em acompanhamento e alertas.<br/>
-      <sub><code>TypeScript</code> · <code>Web App</code></sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/quilty0/guardiao-atento-watch"><strong>guardiao-atento-watch</strong></a><br/>
-      Aplicativo de monitoramento para smartwatch integrado ao ecossistema Guardião Atento.<br/>
-      <sub><code>TypeScript</code> · <code>Wearables</code></sub>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/quilty0/Barbercare"><strong>Barbercare</strong></a><br/>
-      Aplicação web para gestão, agendamentos e atendimento em barbearia.<br/>
-      <sub><code>TypeScript</code> · <code>Frontend</code></sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/quilty0/analise-dados-alunos"><strong>analise-dados-alunos</strong></a><br/>
-      Exploração e análise de dados de desempenho estudantil e métricas acadêmicas.<br/>
-      <sub><code>Python</code> · <code>Análise de Dados</code></sub>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/quilty0/portfolio"><strong>portfolio</strong></a><br/>
-      Portfólio profissional desenvolvido com foco em layout limpo e responsividade.<br/>
-      <sub><code>HTML5</code> · <code>CSS3</code> · <code>JavaScript</code></sub>
-    </td>
-  </tr>
-</table>
+```text
+$ ls -la ~/projetos/publicos
+> Reconstruindo meu portfólio público do zero — novos projetos mais bem estruturados em breve.
+```
 
 ### `~/stack`
 
@@ -136,5 +102,5 @@ Valorizo código limpo, boas práticas de segurança e ferramentas práticas, f�
 
 <p align="center">
   <a href="https://github.com/quilty0"><img src="https://img.shields.io/badge/github-@quilty0-0b0f14?style=for-the-badge&logo=github&logoColor=00e5a0" alt="GitHub"></a>
-  <a href="https://github.com/quilty0/portfolio"><img src="https://img.shields.io/badge/portfolio-quilty0-0b0f14?style=for-the-badge&logo=vercel&logoColor=38bdf8" alt="Portfolio"></a>
+  <a href="https://github.com/quilty0?tab=repositories"><img src="https://img.shields.io/badge/repos-explorar-0b0f14?style=for-the-badge&logo=git&logoColor=38bdf8" alt="Repositórios"></a>
 </p>
