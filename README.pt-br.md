@@ -113,9 +113,9 @@ Valorizo código limpo, boas práticas de segurança e ferramentas práticas, f�
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=quilty0&show_icons=true&title_color=00e5a0&icon_color=38bdf8&text_color=e6edf3&bg_color=0b0f14&hide_border=true" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=quilty0&show_icons=true&title_color=0d1117&icon_color=0284c7&text_color=0d1117&bg_color=transparent&hide_border=true" />
-    <img height="165" src="https://github-readme-stats.vercel.app/api?username=quilty0&show_icons=true&title_color=00e5a0&icon_color=38bdf8&text_color=e6edf3&bg_color=0b0f14&hide_border=true" alt="GitHub Stats" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=quilty0&show_icons=true&include_all_commits=true&count_private=true&title_color=00e5a0&icon_color=38bdf8&text_color=e6edf3&bg_color=0b0f14&hide_border=true" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=quilty0&show_icons=true&include_all_commits=true&count_private=true&title_color=0d1117&icon_color=0284c7&text_color=0d1117&bg_color=transparent&hide_border=true" />
+    <img height="165" src="https://github-readme-stats.vercel.app/api?username=quilty0&show_icons=true&include_all_commits=true&count_private=true&title_color=00e5a0&icon_color=38bdf8&text_color=e6edf3&bg_color=0b0f14&hide_border=true" alt="GitHub Stats" />
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs?username=quilty0&layout=compact&langs_count=6&title_color=00e5a0&text_color=e6edf3&bg_color=0b0f14&hide_border=true" />
