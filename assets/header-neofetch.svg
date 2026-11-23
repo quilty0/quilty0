@@ -1,1077 +1,864 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 418" width="840" height="418" role="img" aria-label="neofetch-style card with spinning 3D ASCII cube: Manuel Ferreira (@quilty0), Software Developer &amp; Data Enthusiast">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 418" width="840" height="418" role="img" aria-label="neofetch terminal with spinning 3D ASCII padlock: Manuel Ferreira (@quilty0), Dev &amp; Cybersecurity">
 <defs>
-  <filter id="glow" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-  <pattern id="scan" width="4" height="3" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000" opacity="0.3"/></pattern>
-  <radialGradient id="vig" cx="50%" cy="50%" r="75%"><stop offset="60%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity=".7"/></radialGradient>
+  <filter id="glow" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="2.0" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="scan" width="4" height="3" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000" opacity="0.28"/></pattern>
+  <radialGradient id="vig" cx="50%" cy="50%" r="75%"><stop offset="60%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity=".68"/></radialGradient>
   <clipPath id="win"><rect width="840" height="418" rx="12"/></clipPath>
-  <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8abeb7"/><stop offset=".5" stop-color="#81a2be"/><stop offset="1" stop-color="#b294bb"/></linearGradient>
+  <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00e5a0"/><stop offset=".55" stop-color="#38bdf8"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
 </defs>
 <style>
   .t{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;white-space:pre}
-  .bar{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;font-size:12px;fill:#6b7078}
+  .bar{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;font-size:12px;fill:#6b7683}
   .cur{animation:blink 1s infinite steps(1)}
   @keyframes blink{0%{opacity:1}50%{opacity:0}}
   @keyframes cframe{0%,3.33%{opacity:1}3.34%,100%{opacity:0}}
-  .cf{opacity:0;animation:cframe 1.20s infinite steps(1)}
-  .cf0{animation-delay:0.000s}.cf1{animation-delay:0.040s}.cf2{animation-delay:0.080s}.cf3{animation-delay:0.120s}.cf4{animation-delay:0.160s}.cf5{animation-delay:0.200s}.cf6{animation-delay:0.240s}.cf7{animation-delay:0.280s}.cf8{animation-delay:0.320s}.cf9{animation-delay:0.360s}.cf10{animation-delay:0.400s}.cf11{animation-delay:0.440s}.cf12{animation-delay:0.480s}.cf13{animation-delay:0.520s}.cf14{animation-delay:0.560s}.cf15{animation-delay:0.600s}.cf16{animation-delay:0.640s}.cf17{animation-delay:0.680s}.cf18{animation-delay:0.720s}.cf19{animation-delay:0.760s}.cf20{animation-delay:0.800s}.cf21{animation-delay:0.840s}.cf22{animation-delay:0.880s}.cf23{animation-delay:0.920s}.cf24{animation-delay:0.960s}.cf25{animation-delay:1.000s}.cf26{animation-delay:1.040s}.cf27{animation-delay:1.080s}.cf28{animation-delay:1.120s}.cf29{animation-delay:1.160s}
+  .cf{opacity:0;animation:cframe 1.80s infinite steps(1)}
+  .cf0{animation-delay:0.000s}.cf1{animation-delay:0.060s}.cf2{animation-delay:0.120s}.cf3{animation-delay:0.180s}.cf4{animation-delay:0.240s}.cf5{animation-delay:0.300s}.cf6{animation-delay:0.360s}.cf7{animation-delay:0.420s}.cf8{animation-delay:0.480s}.cf9{animation-delay:0.540s}.cf10{animation-delay:0.600s}.cf11{animation-delay:0.660s}.cf12{animation-delay:0.720s}.cf13{animation-delay:0.780s}.cf14{animation-delay:0.840s}.cf15{animation-delay:0.900s}.cf16{animation-delay:0.960s}.cf17{animation-delay:1.020s}.cf18{animation-delay:1.080s}.cf19{animation-delay:1.140s}.cf20{animation-delay:1.200s}.cf21{animation-delay:1.260s}.cf22{animation-delay:1.320s}.cf23{animation-delay:1.380s}.cf24{animation-delay:1.440s}.cf25{animation-delay:1.500s}.cf26{animation-delay:1.560s}.cf27{animation-delay:1.620s}.cf28{animation-delay:1.680s}.cf29{animation-delay:1.740s}
   @media (prefers-reduced-motion:reduce){.cur,.cf{animation:none}.cf0{opacity:1}}
-  .wh{fill:#e6e6e6}.dim{fill:#5c6370}.key{fill:#8abeb7;font-weight:700}.logo{fill:url(#lg);font-weight:700}.edge{fill:#d8f0ec;font-weight:700}
+  .wh{fill:#e6edf3}.dim{fill:#4b5563}.key{fill:#00e5a0;font-weight:700}.logo{fill:url(#lg);font-weight:700}.edge{fill:#d2fff0;font-weight:700}.badge{fill:#38bdf8;font-size:11px;font-weight:600}
 </style>
 <g clip-path="url(#win)">
-  <rect width="840" height="418" fill="#101214"/>
-  <rect width="840" height="34" fill="#181b1f"/>
+  <rect width="840" height="418" fill="#0b0f14"/>
+  <rect width="840" height="34" fill="#121820"/>
   <circle cx="22" cy="17" r="6" fill="#ff5f57"/><circle cx="42" cy="17" r="6" fill="#febc2e"/><circle cx="62" cy="17" r="6" fill="#28c840"/>
-  <text x="420" y="21" text-anchor="middle" class="bar">manuel@quilty0: ~ (neofetch)</text>
+  <text x="420" y="21" text-anchor="middle" class="bar">manuel@quilty0: ~ (neofetch --sec)</text>
+  <text x="818" y="21" text-anchor="end" class="t badge">[SEC::OK]</text>
   <g filter="url(#glow)">
     <text x="40" y="62" class="t key" font-size="14" textLength="159.6" lengthAdjust="spacingAndGlyphs">manuel@quilty0 ~ $ </text>
     <clipPath id="ty"><rect x="198.6" y="48" height="22" width="0"><animate attributeName="width" values="9.4;17.8;26.2;34.6;43.0;51.4;59.8;68.2;76.6;85.0;93.4;101.8;110.2;118.6;127.0;135.4;143.8;152.2;160.6;169.0;177.4" begin="0.25s" dur="0.75s" calcMode="discrete" fill="freeze"/></rect></clipPath>
-    <text x="199.6" y="62" class="t wh" font-size="14" textLength="176.4" lengthAdjust="spacingAndGlyphs" clip-path="url(#ty)">neofetch --ascii-cube</text>
+    <text x="199.6" y="62" class="t wh" font-size="14" textLength="176.4" lengthAdjust="spacingAndGlyphs" clip-path="url(#ty)">neofetch --cyber-lock</text>
     <g opacity="0"><set attributeName="opacity" to="1" begin="1.10s" fill="freeze"/>
       <g class="cf cf0">
-        <g class="t logo" font-size="9.6"><text x="28" y="134">           ##..@@@@</text>
-<text x="28" y="145">      ####...@@@@@@@@@@@..####</text>
-<text x="28" y="156">  ~~~         #####...@..#####</text>
-<text x="28" y="167">  ~~~~~~~~~~~         ########</text>
-<text x="28" y="178">  ~~~~~~~~~~~~~~~~~~~</text>
-<text x="28" y="189">   ~~~~~~~~~~~~~~~~~~~~~~~~~~~</text>
-<text x="28" y="200">   ~~~~.....~~~~~~~~~~~~~~~~~~</text>
-<text x="28" y="211">   ~~~~..++++......~~~~~~~~~~</text>
-<text x="28" y="222">    ~~~..+++++++++++..~~~~~~~</text>
-<text x="28" y="233">    ~~~~.+++++++++++..~~~~~~</text>
-<text x="28" y="244">    ~~~~.++++++++++..~~~~~~</text>
-<text x="28" y="255">     ~~~...++++++++..~~~~~~</text>
-<text x="28" y="266">         ~~~~....++..~~~~~</text>
-<text x="28" y="277">               ~~~~.~~~~~</text>
-<text x="28" y="288">                    ~~~~~</text></g>
-        <g class="t edge" font-size="9.6"><text x="28" y="123">           -++-----</text>
-<text x="28" y="134">      -----        -----------</text>
-<text x="28" y="145">  ----                        -</text>
-<text x="28" y="156"> -   ---------                |</text>
-<text x="28" y="167"> |           ---------        |</text>
-<text x="28" y="178"> |                   ---------|</text>
-<text x="28" y="189">  |                           ++</text>
-<text x="28" y="200">  |                           |</text>
-<text x="28" y="211">  |                          |</text>
-<text x="28" y="222">   |                         |</text>
-<text x="28" y="233">   |                        |</text>
-<text x="28" y="244">   |                       |</text>
-<text x="28" y="255">    +                      |</text>
-<text x="28" y="266">    +----                 |</text>
-<text x="28" y="277">         ------          |</text>
-<text x="28" y="288">               -----     |</text>
-<text x="28" y="299">                    ----+</text></g>
+        <g class="t logo" font-size="9.6"><text x="26" y="134">           @@@#**###*</text>
+<text x="26" y="145">          @#=~    :+**</text>
+<text x="26" y="156">         @*:        **=</text>
+<text x="26" y="167">         #+~        ##+</text>
+<text x="26" y="178">         #+~        ##+</text>
+<text x="26" y="189">         #+~        ##=</text>
+<text x="26" y="200">      @##################*</text>
+<text x="26" y="211">      +++++++++++++++++++=</text>
+<text x="26" y="222">      ++++++++    +++++++=</text>
+<text x="26" y="233">      ++++++++    +++++++=</text>
+<text x="26" y="244">      +++++++++  ++++++++=</text>
+<text x="26" y="255">      ++++++++    +++++++=</text>
+<text x="26" y="266">      +++++++++++++++++++=</text>
+<text x="26" y="277">      ,,,,,,,,,,,,,,,,,,,,</text></g>
+        <g class="t edge" font-size="9.6"><text x="26" y="145">              -  -</text>
+<text x="26" y="167">        |              |</text>
+<text x="26" y="178">        |              |</text>
+<text x="26" y="189">       -|   --------   |-</text>
+<text x="26" y="222">              :  :</text>
+<text x="26" y="233">              :  :</text>
+<text x="26" y="255">              ::::</text></g>
       </g>
       <g class="cf cf1">
-        <g class="t logo" font-size="9.6"><text x="28" y="134">           ##..@@@@@</text>
-<text x="28" y="145">      ####...@@@@@@@@@@@..####</text>
-<text x="28" y="156">  ~~        ######...@@..#####</text>
-<text x="28" y="167">  ~~~~~~~~~         ##########</text>
-<text x="28" y="178">  ~~~~~~~~~~~~~~~~~        ###</text>
-<text x="28" y="189">   ~~~~~~~~~~~~~~~~~~~~~~~</text>
-<text x="28" y="200">   ~~~~....~~~~~~~~~~~~~~~~~~</text>
-<text x="28" y="211">   ~~~~.++++.....~~~~~~~~~~~</text>
-<text x="28" y="222">    ~~~..+++++++++...~~~~~~~</text>
-<text x="28" y="233">    ~~~..++++++++++..~~~~~~</text>
-<text x="28" y="244">     ~~~.++++++++++.~~~~~~~</text>
-<text x="28" y="255">      ~~...+++++++..~~~~~~</text>
-<text x="28" y="266">          ~~~...++..~~~~~</text>
-<text x="28" y="277">               ~~~.~~~~~~</text>
-<text x="28" y="288">                   ~~~~~</text></g>
-        <g class="t edge" font-size="9.6"><text x="28" y="123">           --++-----</text>
-<text x="28" y="134">      -----         ----------</text>
-<text x="28" y="145">  ----                        -+</text>
-<text x="28" y="156"> -  --------                  |</text>
-<text x="28" y="167"> |         ---------          |</text>
-<text x="28" y="178"> |                 --------   |</text>
-<text x="28" y="189">  |                       ---++</text>
-<text x="28" y="200">  |                          +</text>
-<text x="28" y="211">  |                         |</text>
-<text x="28" y="222">   |                        |</text>
-<text x="28" y="233">   |                       |</text>
-<text x="28" y="244">    |                      |</text>
-<text x="28" y="255">    +-                    |</text>
-<text x="28" y="266">      ----               |</text>
-<text x="28" y="277">          -----          |</text>
-<text x="28" y="288">               ----     |</text>
-<text x="28" y="299">                   ----+</text></g>
+        <g class="t logo" font-size="9.6"><text x="26" y="134">           @@@#******</text>
+<text x="26" y="145">          @@+~~   ~=++</text>
+<text x="26" y="156">         @#=        ++=</text>
+<text x="26" y="167">         #+~        #*=</text>
+<text x="26" y="178">         #+~        ##=</text>
+<text x="26" y="189">         #+~        ##=</text>
+<text x="26" y="200">       @#######**********+~</text>
+<text x="26" y="211">      *+==================,</text>
+<text x="26" y="222">      *+=======    =======,</text>
+<text x="26" y="233">      *+=======    =======,</text>
+<text x="26" y="244">       +========  ========,</text>
+<text x="26" y="255">       +=======    =======,</text>
+<text x="26" y="266">       +==================,</text>
+<text x="26" y="277">       =:~~~~,,,,,,,,,</text></g>
+        <g class="t edge" font-size="9.6"><text x="26" y="123">                -</text>
+<text x="26" y="145">                 -</text>
+<text x="26" y="156">            |</text>
+<text x="26" y="189">             -------   --</text>
+<text x="26" y="200">     ||</text>
+<text x="26" y="211">     |</text>
+<text x="26" y="222">     |         ::::</text>
+<text x="26" y="233">     |          :::</text>
+<text x="26" y="244">     ||         ::</text>
+<text x="26" y="255">     ||        ::::</text>
+<text x="26" y="266">     ||</text>
+<text x="26" y="277">      |               ---</text></g>
       </g>
       <g class="cf cf2">
-        <g class="t logo" font-size="9.6"><text x="28" y="134">           ##..@@@@@@</text>
-<text x="28" y="145">      ####..@@@@@@@@@@@@..####</text>
-<text x="28" y="156">  ~        #####....@@@..######</text>
-<text x="28" y="167">  ~~~~~~~~       #############</text>
-<text x="28" y="178">  ~~~~~~~~~~~~~~        #####</text>
-<text x="28" y="189">   ~~~~~~~~~~~~~~~~~~~~</text>
-<text x="28" y="200">   ~~~....~~~~~~~~~~~~~~~~~~</text>
-<text x="28" y="211">   ~~~~.+++.....~~~~~~~~~~~~</text>
-<text x="28" y="222">    ~~~.+++++++++...~~~~~~~</text>
-<text x="28" y="233">    ~~~.++++++++++..~~~~~~</text>
-<text x="28" y="244">     ~~..+++++++++..~~~~~~</text>
-<text x="28" y="255">       ~~..+++++++.~~~~~~</text>
-<text x="28" y="266">           ~~..++..~~~~~~</text>
-<text x="28" y="277">               ~~..~~~~~</text>
-<text x="28" y="288">                   ~~~~</text></g>
-        <g class="t edge" font-size="9.6"><text x="28" y="123">           --++------</text>
-<text x="28" y="134">      -----          ---------</text>
-<text x="28" y="145">  ----                        -|</text>
-<text x="28" y="156">+- --------                    |</text>
-<text x="28" y="167"> |        -------             |</text>
-<text x="28" y="178"> |              --------     |</text>
-<text x="28" y="189">  |                    ------+</text>
-<text x="28" y="200">  |                         +</text>
-<text x="28" y="211">  |                         |</text>
-<text x="28" y="222">   |                       |</text>
-<text x="28" y="233">   |                      |</text>
-<text x="28" y="244">    |                     |</text>
-<text x="28" y="255">    +\\                  |</text>
-<text x="28" y="266">       \\\\              |</text>
-<text x="28" y="277">           \\\\         |</text>
-<text x="28" y="288">               \\\\    |</text>
-<text x="28" y="299">                   \\\\|</text></g>
+        <g class="t logo" font-size="9.6"><text x="26" y="134">            @@#++++++</text>
+<text x="26" y="145">          @@*~~   ~:==</text>
+<text x="26" y="156">         @@+~      =+=~</text>
+<text x="26" y="167">         @*:        #*:</text>
+<text x="26" y="178">         #*:        #*~</text>
+<text x="26" y="189">         #*:        #*~</text>
+<text x="26" y="200">     *@@@###******+++===::,</text>
+<text x="26" y="211">     ****:::::::::::::::::,</text>
+<text x="26" y="222">     ****:::::::    ::::::,</text>
+<text x="26" y="233">     ****:::::::    ::::::,</text>
+<text x="26" y="244">     ****::::::::  :::::::,</text>
+<text x="26" y="255">     ****:::::::   :::::::,</text>
+<text x="26" y="266">     ****:::::::::::::::::,</text>
+<text x="26" y="277">        *::~~,,,,,,,</text></g>
+        <g class="t edge" font-size="9.6"><text x="26" y="123">                -</text>
+<text x="26" y="145">                 -</text>
+<text x="26" y="189">              ------   --</text>
+<text x="26" y="222">                ::::</text>
+<text x="26" y="233">                ::::</text>
+<text x="26" y="244">                 ::</text>
+<text x="26" y="255">                :::</text>
+<text x="26" y="277">       |            -</text></g>
       </g>
       <g class="cf cf3">
-        <g class="t logo" font-size="9.6"><text x="28" y="134">           ##..@@@@@@</text>
-<text x="28" y="145">      ###...@@@@@@@@@@@@..####</text>
-<text x="28" y="156"> ~~       #####....@@@@..######</text>
-<text x="28" y="167">  ~~~~~~~      #######.#######</text>
-<text x="28" y="178">  ~~~~~~~~~~~~       ########</text>
-<text x="28" y="189">   ~~~~~~~~~~~~~~~~~       #</text>
-<text x="28" y="200">   ~~~....~~~~~~~~~~~~~~~~  :</text>
-<text x="28" y="211">    ~~..+++....~~~~~~~~~~~~</text>
-<text x="28" y="222">    ~~~.++++++++...~~~~~~~</text>
-<text x="28" y="233">    ~~~.+++++++++..~~~~~~ :</text>
-<text x="28" y="244">     ~~.+++++++++..~~~~~~</text>
-<text x="28" y="255">       ~~..++++++..~~~~~</text>
-<text x="28" y="266">           ~~..++.~~~~~~</text>
-<text x="28" y="277">               ~~.~~~~~</text>
-<text x="28" y="288">                  ~~~~~</text></g>
-        <g class="t edge" font-size="9.6"><text x="28" y="123">           ---+------</text>
-<text x="28" y="134">      -----          ---------</text>
-<text x="28" y="145"> -----                        -/+</text>
-<text x="28" y="156">+  -------                     /</text>
-<text x="28" y="167"> |       ------               /</text>
-<text x="28" y="178"> |            -------        /|</text>
-<text x="28" y="189">  |                 ------- //</text>
-<text x="28" y="200">  |                       -+ |</text>
-<text x="28" y="211">   |                       ++</text>
-<text x="28" y="222">   |                      |+</text>
-<text x="28" y="233">   |                     | +</text>
-<text x="28" y="244">    |                    ||</text>
-<text x="28" y="255">    ++\                 ||</text>
-<text x="28" y="266">       \\\\             |</text>
-<text x="28" y="277">           \\\\        ||</text>
-<text x="28" y="288">               \\\     |</text>
-<text x="28" y="299">                  \\\\|</text>
-<text x="28" y="310">                      +</text></g>
+        <g class="t logo" font-size="9.6"><text x="26" y="134">            @@#+=:==</text>
+<text x="26" y="145">           @#=~   ~::</text>
+<text x="26" y="156">          @#=      ==:</text>
+<text x="26" y="167">          @*~      #*=</text>
+<text x="26" y="178">          #+~      #*=</text>
+<text x="26" y="189">          #+~      #*=</text>
+<text x="26" y="200">     #@@@@ #***+++==::~~~~</text>
+<text x="26" y="211">     *****=~~~~~~~~~~~~~~~</text>
+<text x="26" y="222">     *****=~~~~~~   ~~~~~~</text>
+<text x="26" y="233">     *****+~~~~~~   ~~~~~~</text>
+<text x="26" y="244">     *****+~~~~~~~  ~~~~~~</text>
+<text x="26" y="255">     *****+~~~~~~   ~~~~~~</text>
+<text x="26" y="266">     *****+~~~~~~~~~~~~~~~</text>
+<text x="26" y="277">       =**+~~~,,,,,</text></g>
+        <g class="t edge" font-size="9.6"><text x="26" y="123">                -</text>
+<text x="26" y="145">                 -   |</text>
+<text x="26" y="156">             |</text>
+<text x="26" y="167">         |</text>
+<text x="26" y="178">         |</text>
+<text x="26" y="189">         |    -----   ---</text>
+<text x="26" y="200">          -</text>
+<text x="26" y="222">                 :::</text>
+<text x="26" y="233">                 :::</text>
+<text x="26" y="244">                  ::</text>
+<text x="26" y="255">                 :::</text>
+<text x="26" y="277">      \            -</text></g>
       </g>
       <g class="cf cf4">
-        <g class="t logo" font-size="9.6"><text x="28" y="134">           ##..@@@@@@.</text>
-<text x="28" y="145">      ###..@@@@@@@@@@@@@..####</text>
-<text x="28" y="156"> ~       ######...@@@@...######</text>
-<text x="28" y="167">  ~~~~~~      #######..######</text>
-<text x="28" y="178">  ~~~~~~~~~~~      ######### :</text>
-<text x="28" y="189">   ~~~~~~~~~~~~~~~      ### ::</text>
-<text x="28" y="200">   ~~~...~~~~~~~~~~~~~~    ::</text>
-<text x="28" y="211">    ~~.+++....~~~~~~~~~~~ ::</text>
-<text x="28" y="222">    ~~~.+++++++...~~~~~~~ :;</text>
-<text x="28" y="233">     ~~.+++++++++.~~~~~~ ::</text>
-<text x="28" y="244">     ~~.+++++++++.~~~~~~ :</text>
-<text x="28" y="255">        ~~.+++++..~~~~~ :</text>
-<text x="28" y="266">           ~~..+..~~~~~</text>
-<text x="28" y="277">               ~..~~~~~</text>
-<text x="28" y="288">                  ~~~~</text>
-<text x="28" y="299">                     ~</text></g>
-        <g class="t edge" font-size="9.6"><text x="28" y="123">           ---++------</text>
-<text x="28" y="134">      -----           --------</text>
-<text x="28" y="145"> -----                        -/+</text>
-<text x="28" y="156">+ -------                      /</text>
-<text x="28" y="167"> |      ------               //|</text>
-<text x="28" y="178"> |           ------         / |</text>
-<text x="28" y="189">  |               ------   /  |</text>
-<text x="28" y="200">  |                    ---+  |</text>
-<text x="28" y="211">   |                     -  |</text>
-<text x="28" y="222">   |                     |  +</text>
-<text x="28" y="233">    |                   |  +</text>
-<text x="28" y="244">    +                   | /</text>
-<text x="28" y="255">     +\\               | /</text>
-<text x="28" y="266">        \\\            ||</text>
-<text x="28" y="277">           \\\\        |/</text>
-<text x="28" y="288">               \\\    |/</text>
-<text x="28" y="299">                  \\\ |</text>
-<text x="28" y="310">                     +</text></g>
+        <g class="t logo" font-size="9.6"><text x="26" y="134">             @@+:~::</text>
+<text x="26" y="145">           @@#:  ~~~~</text>
+<text x="26" y="156">           @#:    ==:</text>
+<text x="26" y="167">          @@+~    ##=</text>
+<text x="26" y="178">          ##+~    ##=</text>
+<text x="26" y="189">          ##+~     #=   *</text>
+<text x="26" y="200">      @@@@@   *++=::~,,,,,</text>
+<text x="26" y="211">      ******=,,,,,,,,,,,,,</text>
+<text x="26" y="222">      ******=,,,,,   ,,,,,</text>
+<text x="26" y="233">      ******=,,,,,   ,,,,,</text>
+<text x="26" y="244">      ******=,,,,,  ,,,,,,</text>
+<text x="26" y="255">      ******=,,,,,  ,,,,,</text>
+<text x="26" y="266">      ******=,,,,,,,,,,,,</text>
+<text x="26" y="277">      :+****=,,,,,</text></g>
+        <g class="t edge" font-size="9.6"><text x="26" y="123">                -</text>
+<text x="26" y="145">               |</text>
+<text x="26" y="167">                     |</text>
+<text x="26" y="178">                     |</text>
+<text x="26" y="189">              -----  ---</text>
+<text x="26" y="200">           ---</text>
+<text x="26" y="222">                  :::</text>
+<text x="26" y="233">                  :::</text>
+<text x="26" y="244">                  ::</text>
+<text x="26" y="255">                  ::     |</text>
+<text x="26" y="277">                  -</text></g>
       </g>
       <g class="cf cf5">
-        <g class="t logo" font-size="9.6"><text x="28" y="134">           ##..@@@@@@..</text>
-<text x="28" y="145">      ###..@@@@@@@@@@@@@..#####</text>
-<text x="28" y="156"> ~      ######...@@@@@..######</text>
-<text x="28" y="167">  ~~~~~      #######..####### :</text>
-<text x="28" y="178">  ~~~~~~~~~~     ########### ::</text>
-<text x="28" y="189">   ~~~~~~~~~~~~~      ####  ::</text>
-<text x="28" y="200">   ~~~...~~~~~~~~~~~~     :::</text>
-<text x="28" y="211">    ~~.+++...~~~~~~~~~~~ ::.;</text>
-<text x="28" y="222">    ~~.+++++++...~~~~~~~ ::;</text>
-<text x="28" y="233">     ~~.++++++++..~~~~~ ::;</text>
-<text x="28" y="244">      ~.++++++++.~~~~~~ ::</text>
-<text x="28" y="255">         ~.+++++.~~~~~~ :</text>
-<text x="28" y="266">            ~.++.~~~~~ ::</text>
-<text x="28" y="277">               ~.~~~~~ :</text>
-<text x="28" y="288">                  ~~~ :</text></g>
-        <g class="t edge" font-size="9.6"><text x="28" y="123">           ----+-------</text>
-<text x="28" y="134">      -----            --------</text>
-<text x="28" y="145"> -----                         //</text>
-<text x="28" y="156">+ ------                      //|</text>
-<text x="28" y="167"> |     ------                / |</text>
-<text x="28" y="178"> |          -----           /  |</text>
-<text x="28" y="189">  |             ------    //  |</text>
-<text x="28" y="200">  |                  ---++   |</text>
-<text x="28" y="211">   |                    +    |</text>
-<text x="28" y="222">   |                    |   +</text>
-<text x="28" y="233">    |                  |   /</text>
-<text x="28" y="244">    ++                 |  /</text>
-<text x="28" y="255">      \\\              | /</text>
-<text x="28" y="266">         \\\          |  /</text>
-<text x="28" y="277">            \\\       | /</text>
-<text x="28" y="288">               \\\   | /</text>
-<text x="28" y="299">                  \\\|/</text>
-<text x="28" y="310">                     +</text></g>
+        <g class="t logo" font-size="9.6"><text x="26" y="134">             @@*:~~</text>
+<text x="26" y="145">            @@*~ ~~~</text>
+<text x="26" y="156">            @#:  +=:</text>
+<text x="26" y="167">           @@+~  ##=</text>
+<text x="26" y="178">           ##+~  ##=</text>
+<text x="26" y="189">           ##+~        +</text>
+<text x="26" y="200">       @@@@     +=:~,,,,</text>
+<text x="26" y="211">       *******=,,,,,,,,,</text>
+<text x="26" y="222">       *******=,,,,  ,,,</text>
+<text x="26" y="233">       *******=,,,,  ,,,</text>
+<text x="26" y="244">       *******=,,,,  ,,,</text>
+<text x="26" y="255">       *******=,,,,  ,,,</text>
+<text x="26" y="266">       *******=,,,,,,,,</text>
+<text x="26" y="277">       *******=,,,</text></g>
+        <g class="t edge" font-size="9.6"><text x="26" y="123">                -</text>
+<text x="26" y="145">                \</text>
+<text x="26" y="167">                    |</text>
+<text x="26" y="178">                    |</text>
+<text x="26" y="189">               --------</text>
+<text x="26" y="200">           -----        |</text>
+<text x="26" y="211">                        |</text>
+<text x="26" y="222">                   ::</text>
+<text x="26" y="233">                   ::</text>
+<text x="26" y="244">                   ::</text>
+<text x="26" y="255">                   ::</text>
+<text x="26" y="266">                       /</text>
+<text x="26" y="277">                  |</text></g>
       </g>
       <g class="cf cf6">
-        <g class="t logo" font-size="9.6"><text x="28" y="134">           ##..@@@@@@..</text>
-<text x="28" y="145">      ###..@@@@@@@@@@@@@..#####</text>
-<text x="28" y="156">       ######...@@@@@@..###### :</text>
-<text x="28" y="167">  ~~~~     ########...######  :</text>
-<text x="28" y="178">  ~~~~~~~~      ########### :::</text>
-<text x="28" y="189">   ~~~~~~~~~~~~     #####  :::</text>
-<text x="28" y="200">   ~~...~~~~~~~~~~~      :::.;</text>
-<text x="28" y="211">    ~~.+++..~~~~~~~~~~~ :::.;</text>
-<text x="28" y="222">     ~.++++++...~~~~~~~ ::;;;</text>
-<text x="28" y="233">     ~~.+++++++..~~~~~ :::;;</text>
-<text x="28" y="244">      ~.+++++++..~~~~~ ::.;</text>
-<text x="28" y="255">         ~.++++..~~~~~ ::;</text>
-<text x="28" y="266">            ~.+..~~~~ ::.</text>
-<text x="28" y="277">               ~.~~~~ :</text>
-<text x="28" y="288">                 ~~~~</text></g>
-        <g class="t edge" font-size="9.6"><text x="28" y="123">           ----+-------</text>
-<text x="28" y="134">      -----            --------</text>
-<text x="28" y="145">  ----                         //+</text>
-<text x="28" y="156">+------                       / |</text>
-<text x="28" y="167"> |    -----                 // |</text>
-<text x="28" y="178"> |        ------           /   |</text>
-<text x="28" y="189">  |            -----     //   |</text>
-<text x="28" y="200">  |                ----++     |</text>
-<text x="28" y="211">   |                   +     |</text>
-<text x="28" y="222">    |                  |     +</text>
-<text x="28" y="233">    |                 |     +</text>
-<text x="28" y="244">     +                |    /</text>
-<text x="28" y="255">      \\\             |   /</text>
-<text x="28" y="266">         \\\         |   /</text>
-<text x="28" y="277">            \\\      | //</text>
-<text x="28" y="288">               \\    |/</text>
-<text x="28" y="299">                 \\\||</text>
-<text x="28" y="310">                    +</text></g>
+        <g class="t logo" font-size="9.6"><text x="26" y="134">              @@=</text>
+<text x="26" y="145">             @@* ~~</text>
+<text x="26" y="156">             @#:+=~</text>
+<text x="26" y="167">             @*~##=</text>
+<text x="26" y="178">             #+~##=</text>
+<text x="26" y="189">             #+~</text>
+<text x="26" y="200">         @</text>
+<text x="26" y="211">         *******+,</text>
+<text x="26" y="222">         *******+,</text>
+<text x="26" y="233">         *******+,</text>
+<text x="26" y="244">         *******+,</text>
+<text x="26" y="255">         *******+,</text>
+<text x="26" y="266">         *******+,</text>
+<text x="26" y="277">         *******+,</text></g>
+        <g class="t edge" font-size="9.6"><text x="26" y="123">                -</text>
+<text x="26" y="134">                 ||</text>
+<text x="26" y="145">                |</text>
+<text x="26" y="167">            |</text>
+<text x="26" y="178">            |</text>
+<text x="26" y="189">            |   ------|</text>
+<text x="26" y="200">          --------\||||</text>
+<text x="26" y="211">        |         |||||</text>
+<text x="26" y="222">        |         ||:||</text>
+<text x="26" y="233">        |         ||:||</text>
+<text x="26" y="244">        |         ||:||</text>
+<text x="26" y="255">        |         ||:||</text>
+<text x="26" y="266">        |         ||||</text>
+<text x="26" y="277">        |         |</text>
+<text x="26" y="288">                -</text></g>
       </g>
       <g class="cf cf7">
-        <g class="t logo" font-size="9.6"><text x="28" y="134">            #..@@@@@@..</text>
-<text x="28" y="145">       ##..@@@@@@@@@@@@@..#####</text>
-<text x="28" y="156">      #######...@@@@@...###### :</text>
-<text x="28" y="167">  ~~~      #######...#######  ::</text>
-<text x="28" y="178">  ~~~~~~~~     ###########  :::</text>
-<text x="28" y="189">   ~~~~~~~~~~~     #####  ::::.</text>
-<text x="28" y="200">    ~...~~~~~~~~~~      ::::.;</text>
-<text x="28" y="211">    ~~.++...~~~~~~~~~~ ::::;;</text>
-<text x="28" y="222">     ~.++++++..~~~~~~ :::.;;;</text>
-<text x="28" y="233">     ~~.+++++++.~~~~~ :::.;;</text>
-<text x="28" y="244">       .+++++++.~~~~~ :::;;</text>
-<text x="28" y="255">         ~.++++.~~~~~ ::..</text>
-<text x="28" y="266">            ~.+.~~~~~ ::.</text>
-<text x="28" y="277">              ~.~~~~ ::</text>
-<text x="28" y="288">                 ~~~ :</text></g>
-        <g class="t edge" font-size="9.6"><text x="28" y="123">            ---++------</text>
-<text x="28" y="134">       -----           ---------</text>
-<text x="28" y="145">  -----                        //+</text>
-<text x="28" y="156">+\\\\\                        / /</text>
-<text x="28" y="167"> |   \\\\\\                 //  |</text>
-<text x="28" y="178"> |        \\\\\           //   |</text>
-<text x="28" y="189">  |           \\\\\     //     |</text>
-<text x="28" y="200">   |              \\\\+/      |</text>
-<text x="28" y="211">   |                  +      |</text>
-<text x="28" y="222">    |                |       +</text>
-<text x="28" y="233">    |                |      +</text>
-<text x="28" y="244">     +\              |     /</text>
-<text x="28" y="255">       \\            |    /</text>
-<text x="28" y="266">         \\\         |   /</text>
-<text x="28" y="277">            \\      |  //</text>
-<text x="28" y="288">              \\\   | /</text>
-<text x="28" y="299">                 \\\|/</text>
-<text x="28" y="310">                    +</text></g>
+        <g class="t logo" font-size="9.6"><text x="26" y="134">              @@*</text>
+<text x="26" y="145">              @@+~</text>
+<text x="26" y="156">              @@=~</text>
+<text x="26" y="167">              @#::</text>
+<text x="26" y="178">              #*::</text>
+<text x="26" y="189">              #*:</text>
+<text x="26" y="211">          *++++++++,</text>
+<text x="26" y="222">          *++++++++,</text>
+<text x="26" y="233">          *++++++++,</text>
+<text x="26" y="244">          *++++++++,</text>
+<text x="26" y="255">          *++++++++,</text>
+<text x="26" y="266">          *++++++++,</text>
+<text x="26" y="277">          *++++++++,</text></g>
+        <g class="t edge" font-size="9.6"><text x="26" y="134">                 |</text>
+<text x="26" y="189">            --   ----</text>
+<text x="26" y="200">           ---------|</text>
+<text x="26" y="211">                    |</text>
+<text x="26" y="222">                    :</text>
+<text x="26" y="233">                    :</text>
+<text x="26" y="244">                    |</text>
+<text x="26" y="255">                    |</text>
+<text x="26" y="266">                    |</text></g>
       </g>
       <g class="cf cf8">
-        <g class="t logo" font-size="9.6"><text x="28" y="134">            #..@@@@@@..#</text>
-<text x="28" y="145">       ##..@@@@@@@@@@@@@..#####</text>
-<text x="28" y="156">      ######...@@@@@@..######  ::</text>
-<text x="28" y="167">  ===     #######....######  :::</text>
-<text x="28" y="178">  =======     ###########  ::::</text>
-<text x="28" y="189">   ==========     #####  ::::..</text>
-<text x="28" y="200">    =...=========      :::::.;</text>
-<text x="28" y="211">    ==.++..========= :::::.;;.</text>
-<text x="28" y="222">     =.+++++..====== ::::;;;;</text>
-<text x="28" y="233">      =.++++++.===== :::.;;;</text>
-<text x="28" y="244">       =.+++++.===== :::.;;</text>
-<text x="28" y="255">          .+++..==== :::..</text>
-<text x="28" y="266">            =.+.==== ::::</text>
-<text x="28" y="277">              =.==== ::</text>
-<text x="28" y="288">                 == ::</text>
-<text x="28" y="299">                    :</text></g>
-        <g class="t edge" font-size="9.6"><text x="28" y="123">            ----+-------</text>
-<text x="28" y="134">       -----            --------</text>
-<text x="28" y="145">  -----                        ///</text>
-<text x="28" y="156">+\\\\\                       //  |</text>
-<text x="28" y="167"> |   \\\\\                 //   |</text>
-<text x="28" y="178"> |       \\\\\           //    |</text>
-<text x="28" y="189">  |          \\\\\     //      |</text>
-<text x="28" y="200">   |             \\\\+/       |</text>
-<text x="28" y="211">   |                +         |</text>
-<text x="28" y="222">    |               |        +</text>
-<text x="28" y="233">     |              |       /+</text>
-<text x="28" y="244">     ++             |      /</text>
-<text x="28" y="255">       \\\          |     /</text>
-<text x="28" y="266">          \\        |    /</text>
-<text x="28" y="277">            \\      |  //</text>
-<text x="28" y="288">              \\\  |  /</text>
-<text x="28" y="299">                 \\| /</text>
-<text x="28" y="310">                   ++</text></g>
+        <g class="t logo" font-size="9.6"><text x="26" y="134">               @@+</text>
+<text x="26" y="145">              =@@+</text>
+<text x="26" y="156">              *@@+</text>
+<text x="26" y="167">              #@#+</text>
+<text x="26" y="178">              ##*=</text>
+<text x="26" y="189">               #*=</text>
+<text x="26" y="211">            *========,</text>
+<text x="26" y="222">            *========,</text>
+<text x="26" y="233">            *========,</text>
+<text x="26" y="244">            *========,</text>
+<text x="26" y="255">            *========,</text>
+<text x="26" y="266">            *========,</text>
+<text x="26" y="277">            *========,</text></g>
+        <g class="t edge" font-size="9.6"><text x="26" y="134">              |</text>
+<text x="26" y="189">           ----   --</text>
+<text x="26" y="200">           |---------</text>
+<text x="26" y="211">           |</text>
+<text x="26" y="222">           :</text>
+<text x="26" y="233">           :</text>
+<text x="26" y="244">           |</text>
+<text x="26" y="255">           |</text>
+<text x="26" y="266">           |</text></g>
       </g>
       <g class="cf cf9">
-        <g class="t logo" font-size="9.6"><text x="28" y="134">            #..@@@@@@..#</text>
-<text x="28" y="145">       ##..@@@@@@@@@@@@@..#####</text>
-<text x="28" y="156">      ######...@@@@@...######  ::</text>
-<text x="28" y="167">  ===    ########...######   :::</text>
-<text x="28" y="178">   =====     ###########  ::::::</text>
-<text x="28" y="189">   =========     #####  :::::..</text>
-<text x="28" y="200">    =...========      :::::.;;:</text>
-<text x="28" y="211">     =+++..======== ::::::.;;.</text>
-<text x="28" y="222">     =.+++++..===== ::::.;;;;:</text>
-<text x="28" y="233">      =.+++++.===== ::::.;;;.</text>
-<text x="28" y="244">        .+++++.==== ::::;;;</text>
-<text x="28" y="255">          .+++.==== :::.;.</text>
-<text x="28" y="266">            =..==== :::.:</text>
-<text x="28" y="277">              ===== :::</text>
-<text x="28" y="288">                 == ::</text></g>
-        <g class="t edge" font-size="9.6"><text x="28" y="123">            ----+-------</text>
-<text x="28" y="134">       -----            --------</text>
-<text x="28" y="145">  -----                        ///</text>
-<text x="28" y="156">+\\\\\                       //  |</text>
-<text x="28" y="167"> |   \\\\                 ///   |</text>
-<text x="28" y="178">  |     \\\\\           //      |</text>
-<text x="28" y="189">  |         \\\\\     //       |</text>
-<text x="28" y="200">   |            \\\++/         |</text>
-<text x="28" y="211">    |              +          |</text>
-<text x="28" y="222">    |              |          +</text>
-<text x="28" y="233">     |             |         +</text>
-<text x="28" y="244">      +\           |       //</text>
-<text x="28" y="255">        \\         |      /</text>
-<text x="28" y="266">          \\       |     /</text>
-<text x="28" y="277">            \\     |   //</text>
-<text x="28" y="288">              \\\  |  /</text>
-<text x="28" y="299">                 \\|//</text>
-<text x="28" y="310">                   +</text></g>
+        <g class="t logo" font-size="9.6"><text x="26" y="134">               @@@</text>
+<text x="26" y="145">             +~ @@+</text>
+<text x="26" y="156">             *:~@@*</text>
+<text x="26" y="167">             #+~@@+</text>
+<text x="26" y="178">             #+~##=</text>
+<text x="26" y="189">                ##=</text>
+<text x="26" y="200">                      *</text>
+<text x="26" y="211">              *+:::::::</text>
+<text x="26" y="222">              *+:::::::</text>
+<text x="26" y="233">              *+:::::::</text>
+<text x="26" y="244">              *+:::::::</text>
+<text x="26" y="255">              *+:::::::</text>
+<text x="26" y="266">              *+:::::::</text>
+<text x="26" y="277">              *+:::::::</text></g>
+        <g class="t edge" font-size="9.6"><text x="26" y="123">               -</text>
+<text x="26" y="134">             ||</text>
+<text x="26" y="145">               |</text>
+<text x="26" y="167">                   |</text>
+<text x="26" y="178">                   |</text>
+<text x="26" y="189">         |------   |</text>
+<text x="26" y="200">         ||||/--------</text>
+<text x="26" y="211">         |||||         |</text>
+<text x="26" y="222">         ||:||         |</text>
+<text x="26" y="233">         ||:||         |</text>
+<text x="26" y="244">         ||:||         |</text>
+<text x="26" y="255">         ||:||         |</text>
+<text x="26" y="266">          ||||         |</text>
+<text x="26" y="277">             |         |</text>
+<text x="26" y="288">               -</text></g>
       </g>
       <g class="cf cf10">
-        <g class="t logo" font-size="9.6"><text x="28" y="134">             ..@@@@@@..%</text>
-<text x="28" y="145">       %..@@@@@@@@@@@@@..%%%%%</text>
-<text x="28" y="156">      %%%%%%...@@@@@..%%%%%%  :::</text>
-<text x="28" y="167">  ===    %%%%%%%...%%%%%%   ::::</text>
-<text x="28" y="178">   =====    %%%%%%%%%%%  :::::::</text>
-<text x="28" y="189">    =======     %%%%   ::::::..:</text>
-<text x="28" y="200">    =...=======     :::::::.;;:</text>
-<text x="28" y="211">     =***.=======  ::::::.;;;.:</text>
-<text x="28" y="222">      .****..===== ::::.;;;;;.</text>
-<text x="28" y="233">      =.*****.==== ::::.;;;;.</text>
-<text x="28" y="244">        .****.==== ::::.;;;:</text>
-<text x="28" y="255">          .**.==== ::::.;.</text>
-<text x="28" y="266">            .*.=== ::::.:</text>
-<text x="28" y="277">              ==== ::::</text>
-<text x="28" y="288">                == :::</text>
-<text x="28" y="299">                   :</text></g>
-        <g class="t edge" font-size="9.6"><text x="28" y="123">             ---++------</text>
-<text x="28" y="134">       ------           ---------</text>
-<text x="28" y="145">  -----                       ////</text>
-<text x="28" y="156">+\\\\\                      //   |</text>
-<text x="28" y="167"> |   \\\\                ///    |</text>
-<text x="28" y="178">  |     \\\\           //       |</text>
-<text x="28" y="189">   |       \\\\\    ///         |</text>
-<text x="28" y="200">   |           \\\+/           |</text>
-<text x="28" y="211">    |            ++            |</text>
-<text x="28" y="222">     |            |           |</text>
-<text x="28" y="233">     |            |          ++</text>
-<text x="28" y="244">      +\          |         /</text>
-<text x="28" y="255">        \\        |       //</text>
-<text x="28" y="266">          \\      |      /</text>
-<text x="28" y="277">            \\    |    //</text>
-<text x="28" y="288">              \\  |   /</text>
-<text x="28" y="299">                \\| //</text>
-<text x="28" y="310">                  ++</text></g>
+        <g class="t logo" font-size="9.6"><text x="26" y="134">             @#@@@#</text>
+<text x="26" y="145">            #:~ #@@+</text>
+<text x="26" y="156">            *:~  @@*</text>
+<text x="26" y="167">            #+~  #@*~</text>
+<text x="26" y="178">            #+~  ##+~</text>
+<text x="26" y="189">        @        ##+~</text>
+<text x="26" y="200">        ****#@@@     ###</text>
+<text x="26" y="211">        *********+~~~~~~~</text>
+<text x="26" y="222">        ***  ****+~~~~~~~</text>
+<text x="26" y="233">        ***  ****+~~~~~~~</text>
+<text x="26" y="244">        ***  ****+~~~~~~~</text>
+<text x="26" y="255">        ***  ****+~~~~~~~</text>
+<text x="26" y="266">         =*******+~~~~~~,</text>
+<text x="26" y="277">              +**+~~~~~~,</text></g>
+        <g class="t edge" font-size="9.6"><text x="26" y="123">               -</text>
+<text x="26" y="145">               /</text>
+<text x="26" y="167">           |</text>
+<text x="26" y="178">           |</text>
+<text x="26" y="189">         --------</text>
+<text x="26" y="200">       |        -----   \</text>
+<text x="26" y="211">       |</text>
+<text x="26" y="222">           ::</text>
+<text x="26" y="233">           ::</text>
+<text x="26" y="244">           ::</text>
+<text x="26" y="255">           ::</text>
+<text x="26" y="266">        \</text>
+<text x="26" y="277">             |</text></g>
       </g>
       <g class="cf cf11">
-        <g class="t logo" font-size="9.6"><text x="28" y="134">             ..@@@@@@..%</text>
-<text x="28" y="145">        ..@@@@@@@@@@@@@..%%%%%</text>
-<text x="28" y="156">      %%%%%%...@@@@...%%%%%   :::</text>
-<text x="28" y="167">  ===    %%%%%%%..%%%%%%   ::::::</text>
-<text x="28" y="178">   =====    %%%%%%%%%   ::::::::</text>
-<text x="28" y="189">    =======    %%%%  ::::::::..:</text>
-<text x="28" y="200">     ...======     ::::::::.;;:</text>
-<text x="28" y="211">     =***.====== :::::::..;;;.:</text>
-<text x="28" y="222">      =****..=== :::::..;;;;;.</text>
-<text x="28" y="233">       .****.===  ::::..;;;;;:</text>
-<text x="28" y="244">        .****==== ::::.;;;;.</text>
-<text x="28" y="255">          .**.=== ::::.;;.</text>
-<text x="28" y="266">            ..=== ::::..:</text>
-<text x="28" y="277">              .== :::::</text>
-<text x="28" y="288">                = :::</text>
-<text x="28" y="299">                   :</text></g>
-        <g class="t edge" font-size="9.6"><text x="28" y="123">             ----+------</text>
-<text x="28" y="134">        -----           ---------</text>
-<text x="28" y="145">  ------                      ////+</text>
-<text x="28" y="156"> \\\\\                     ///   |</text>
-<text x="28" y="167"> |   \\\\               ///      |</text>
-<text x="28" y="178">  |     \\\\         ///        |</text>
-<text x="28" y="189">   |       \\\\    //           |</text>
-<text x="28" y="200">    |         \\++/            |</text>
-<text x="28" y="211">    |           +              |</text>
-<text x="28" y="222">     |          |             |</text>
-<text x="28" y="233">      +         ||            +</text>
-<text x="28" y="244">      ++         |          //</text>
-<text x="28" y="255">        \\       |        //</text>
-<text x="28" y="266">          \\     |       /</text>
-<text x="28" y="277">            \\   |     //</text>
-<text x="28" y="288">              \\ |   //</text>
-<text x="28" y="299">                \\| /</text>
-<text x="28" y="310">                  ++</text></g>
+        <g class="t logo" font-size="9.6"><text x="26" y="134">            @@#@@@@</text>
+<text x="26" y="145">           @+~~  @@@=</text>
+<text x="26" y="156">           #=~    @@*</text>
+<text x="26" y="167">           #+~    ##*~</text>
+<text x="26" y="178">           #+~    ##+~</text>
+<text x="26" y="189">       @   #+     ##+~</text>
+<text x="26" y="200">      *****#@@@@@@   ***++</text>
+<text x="26" y="211">      *************+,,,,,,</text>
+<text x="26" y="222">      *****   *****+,,,,,,</text>
+<text x="26" y="233">      *****   *****+,,,,,,</text>
+<text x="26" y="244">      ******  *****+,,,,,,</text>
+<text x="26" y="255">       *****  *****+,,,,,,</text>
+<text x="26" y="266">       =***********+,,,,,,</text>
+<text x="26" y="277">              :+***+,,,,,,</text></g>
+        <g class="t edge" font-size="9.6"><text x="26" y="123">               -</text>
+<text x="26" y="145">                |</text>
+<text x="26" y="167">          |</text>
+<text x="26" y="178">          |</text>
+<text x="26" y="189">        ---  -----</text>
+<text x="26" y="200">                  ---</text>
+<text x="26" y="222">           :::</text>
+<text x="26" y="233">           :::</text>
+<text x="26" y="244">            ::</text>
+<text x="26" y="255">      |     ::</text>
+<text x="26" y="277">             -</text></g>
       </g>
       <g class="cf cf12">
-        <g class="t logo" font-size="9.6"><text x="28" y="134">              .@@@@@@..%</text>
-<text x="28" y="145">        ..@@@@@@@@@@@@@..%%%%</text>
-<text x="28" y="156">      %%%%%%...@@@@..%%%%%   ::::</text>
-<text x="28" y="167">   ==    %%%%%%%.%%%%%%   :::::::</text>
-<text x="28" y="178">    ====   %%%%%%%%%   :::::::::</text>
-<text x="28" y="189">    ======    %%%   :::::::::..:</text>
-<text x="28" y="200">     ...=====    :::::::::..;;::</text>
-<text x="28" y="211">      ***.===== :::::::..;;;;.:</text>
-<text x="28" y="222">      =****.=== ::::::.;;;;;;.:</text>
-<text x="28" y="233">       .****=== ::::::.;;;;;;:</text>
-<text x="28" y="244">         ***.==  :::::.;;;;.:</text>
-<text x="28" y="255">          .*.=== :::::.;;.:</text>
-<text x="28" y="266">            ..== :::::..:</text>
-<text x="28" y="277">              == ::::::</text>
-<text x="28" y="288">               =  :::</text>
-<text x="28" y="299">                  :</text></g>
-        <g class="t edge" font-size="9.6"><text x="28" y="123">              ---++-----</text>
-<text x="28" y="134">        ------          ---------</text>
-<text x="28" y="145">  ------                     /////+</text>
-<text x="28" y="156"> |\\\\                    ///    |</text>
-<text x="28" y="167">  |  \\\\              ///       |</text>
-<text x="28" y="178">   |    \\\         ///         |</text>
-<text x="28" y="189">   |      \\\\   ///            |</text>
-<text x="28" y="200">    |        \+++               |</text>
-<text x="28" y="211">     |         +               |</text>
-<text x="28" y="222">     |         |               |</text>
-<text x="28" y="233">      +        |              +</text>
-<text x="28" y="244">       +\      ||            /</text>
-<text x="28" y="255">         \      |          //</text>
-<text x="28" y="266">          \\    |        //</text>
-<text x="28" y="277">            \\  |      //</text>
-<text x="28" y="288">              \ ||   //</text>
-<text x="28" y="299">               \\| //</text>
-<text x="28" y="310">                 ++</text></g>
+        <g class="t logo" font-size="9.6"><text x="26" y="134">            @@@@@@@#</text>
+<text x="26" y="145">           #=~   +@@#</text>
+<text x="26" y="156">          @+~      @#+</text>
+<text x="26" y="167">          #+~      ##+</text>
+<text x="26" y="178">          #+~      ##=</text>
+<text x="26" y="189">          #+~      ##=</text>
+<text x="26" y="200">      ****##@@@@@@@@@ *+=:~</text>
+<text x="26" y="211">      ***************+,,,,,</text>
+<text x="26" y="222">      ******   ******+,,,,,</text>
+<text x="26" y="233">      ******   ******+,,,,,</text>
+<text x="26" y="244">      ******  *******+,,,,,</text>
+<text x="26" y="255">      ******   ******+,,,,,</text>
+<text x="26" y="266">      ***************+,,,,,</text>
+<text x="26" y="277">             ,~:=+***+,,,</text></g>
+        <g class="t edge" font-size="9.6"><text x="26" y="123">               -</text>
+<text x="26" y="145">          |   -</text>
+<text x="26" y="156">                  |</text>
+<text x="26" y="167">                      |</text>
+<text x="26" y="178">                      |</text>
+<text x="26" y="189">       ---   -----    |</text>
+<text x="26" y="200">                     -</text>
+<text x="26" y="222">            :::</text>
+<text x="26" y="233">            :::</text>
+<text x="26" y="244">            ::</text>
+<text x="26" y="255">            :::</text>
+<text x="26" y="277">            -            /</text></g>
       </g>
       <g class="cf cf13">
-        <g class="t logo" font-size="9.6"><text x="28" y="134">              .@@@@@@..%</text>
-<text x="28" y="145">        ..@@@@@@@@@@@@..%%%%%   :</text>
-<text x="28" y="156">      %%%%%%..@@@@..%%%%%    ::::</text>
-<text x="28" y="167">   ==   %%%%%%%%%%%%%%   ::::::::</text>
-<text x="28" y="178">    ===    %%%%%%%    :::::::::::</text>
-<text x="28" y="189">     .====        ::::::::::...:</text>
-<text x="28" y="200">     =*.===== :::::::::::...;;::</text>
-<text x="28" y="211">      .**.===  :::::::...;;;;.::</text>
-<text x="28" y="222">       ****=== ::::::.;;;;;;;.:</text>
-<text x="28" y="233">       .***.== ::::::.;;;;;;;.:</text>
-<text x="28" y="244">         ***==  :::::.;;;;;.:</text>
-<text x="28" y="255">          .*.== :::::.;;;.:</text>
-<text x="28" y="266">            .== :::::.;.:</text>
-<text x="28" y="277">              =  ::::::</text>
-<text x="28" y="288">               = ::::</text>
-<text x="28" y="299">                 ::</text></g>
-        <g class="t edge" font-size="9.6"><text x="28" y="123">              ---++-----</text>
-<text x="28" y="134">        ------          ---------</text>
-<text x="28" y="145">  ------                     /// /+</text>
-<text x="28" y="156">  \\\\                   ////    |</text>
-<text x="28" y="167">  |  \\\              ///        |</text>
-<text x="28" y="178">   |   \\\\       ////           |</text>
-<text x="28" y="189">    |     \\\\////              |</text>
-<text x="28" y="200">    |        +                  |</text>
-<text x="28" y="211">     |       ++                 |</text>
-<text x="28" y="222">      |       |                |</text>
-<text x="28" y="233">      +       |                +</text>
-<text x="28" y="244">       +\     ||             /+</text>
-<text x="28" y="255">         \     |           //</text>
-<text x="28" y="266">          \\   |         //</text>
-<text x="28" y="277">            \\ ||      //</text>
-<text x="28" y="288">              \ |    //</text>
-<text x="28" y="299">               \|  //</text>
-<text x="28" y="310">                 +/</text></g>
+        <g class="t logo" font-size="9.6"><text x="26" y="134">           @@@##@@@@</text>
+<text x="26" y="145">          @#=~   :*@#+</text>
+<text x="26" y="156">         @#:~      *#*:</text>
+<text x="26" y="167">         #*:        #*:</text>
+<text x="26" y="178">         #*=        #*:</text>
+<text x="26" y="189">         #*=        #*:</text>
+<text x="26" y="200">     ***####@@@@@@@@@@@*=~,</text>
+<text x="26" y="211">     ******************:,,,</text>
+<text x="26" y="222">     *******    *******:,,,</text>
+<text x="26" y="233">     *******    *******:,,,</text>
+<text x="26" y="244">     ********  ********:,,,</text>
+<text x="26" y="255">     ********   *******:,,,</text>
+<text x="26" y="266">     ******************:,,,</text>
+<text x="26" y="277">            ,,,~:==++**:</text></g>
+        <g class="t edge" font-size="9.6"><text x="26" y="123">               -</text>
+<text x="26" y="145">              -</text>
+<text x="26" y="189">       --   ------</text>
+<text x="26" y="222">            ::::</text>
+<text x="26" y="233">            ::::</text>
+<text x="26" y="244">             ::</text>
+<text x="26" y="255">             :::</text>
+<text x="26" y="277">           -            |</text></g>
       </g>
       <g class="cf cf14">
-        <g class="t logo" font-size="9.6"><text x="28" y="134">               @@@@@@..%</text>
-<text x="28" y="145">        ...@@@@@@@@@@@..%%%%    :</text>
-<text x="28" y="156">      %%%%%%...@@..%%%%%    ::::::</text>
-<text x="28" y="167">    =   %%%%%%%%%%%%    :::::::::</text>
-<text x="28" y="178">    ===   %%%%%%    :::::::::::::</text>
-<text x="28" y="189">     .===       ::::::::::::...::</text>
-<text x="28" y="200">      *.===  ::::::::::::..;;.::</text>
-<text x="28" y="211">      .**.== ::::::::...;;;;;.::</text>
-<text x="28" y="222">       ***.=  ::::::.;;;;;;;;.:</text>
-<text x="28" y="233">        ***== ::::::..;;;;;;;.:</text>
-<text x="28" y="244">         **.= ::::::..;;;;;.::</text>
-<text x="28" y="255">          .*=  :::::..;;;.:</text>
-<text x="28" y="266">            .= :::::...::</text>
-<text x="28" y="277">             =  :::::::</text>
-<text x="28" y="288">                ::::</text>
-<text x="28" y="299">                 :</text></g>
-        <g class="t edge" font-size="9.6"><text x="28" y="123">               ---++----</text>
-<text x="28" y="134">        -------         ---------</text>
-<text x="28" y="145">  +-----                    //// /+</text>
-<text x="28" y="156">  |\\\                  ////      |</text>
-<text x="28" y="167">   | \\\            ////         |</text>
-<text x="28" y="178">   |   \\\      ////             |</text>
-<text x="28" y="189">    |    \\\+///                 |</text>
-<text x="28" y="200">     |     ++                   |</text>
-<text x="28" y="211">     |      |                   |</text>
-<text x="28" y="222">      |     ||                 |</text>
-<text x="28" y="233">       +     |                 +</text>
-<text x="28" y="244">        \    |                /+</text>
-<text x="28" y="255">         \   ||            ///</text>
-<text x="28" y="266">          \\  |          //</text>
-<text x="28" y="277">            \ ||       //</text>
-<text x="28" y="288">             \\|    ///</text>
-<text x="28" y="299">               || //</text>
-<text x="28" y="310">                ++</text></g>
+        <g class="t logo" font-size="9.6"><text x="26" y="134">           @@@###@@@*</text>
+<text x="26" y="145">          @#=~    =*#*</text>
+<text x="26" y="156">         @*~        **=</text>
+<text x="26" y="167">         #+~        ##+</text>
+<text x="26" y="178">         #+~        ##=</text>
+<text x="26" y="189">         #+~        ##=</text>
+<text x="26" y="200">     #########@@@@@@@@@@#</text>
+<text x="26" y="211">     *++++++++++++++++++=,</text>
+<text x="26" y="222">     *+++++++    +++++++=,</text>
+<text x="26" y="233">     *+++++++    +++++++=,</text>
+<text x="26" y="244">     *++++++++  ++++++++=</text>
+<text x="26" y="255">     *+++++++    +++++++=</text>
+<text x="26" y="266">     *++++++++++++++++++=</text>
+<text x="26" y="277">          ,,,,,,~~~::===:</text></g>
+        <g class="t edge" font-size="9.6"><text x="26" y="123">               -</text>
+<text x="26" y="145">              -  -</text>
+<text x="26" y="156">                   |</text>
+<text x="26" y="189">       --   -------</text>
+<text x="26" y="200">                         ||</text>
+<text x="26" y="211">                          |</text>
+<text x="26" y="222">             ::::         |</text>
+<text x="26" y="233">             :::          |</text>
+<text x="26" y="244">              ::         ||</text>
+<text x="26" y="255">             ::::        ||</text>
+<text x="26" y="266">                         ||</text>
+<text x="26" y="277">       ---               |</text></g>
       </g>
       <g class="cf cf15">
-        <g class="t logo" font-size="9.6"><text x="28" y="134">                @@@@@..%</text>
-<text x="28" y="145">        %..@@@@@@@@@@...%%%</text>
-<text x="28" y="156">      %%%%%%...@..%%%%%    :::::::</text>
-<text x="28" y="167">    =   %%%%%%%%%%     ::::::::::</text>
-<text x="28" y="178">     ==   %%%     :::::::::::::::</text>
-<text x="28" y="189">      ===    :::::::::::::::..:::</text>
-<text x="28" y="200">      *.==  ::::::::::::...;;.::</text>
-<text x="28" y="211">       **== ::::::::...;;;;;;.::</text>
-<text x="28" y="222">       ***=  ::::::..;;;;;;;;.::</text>
-<text x="28" y="233">        **== ::::::..;;;;;;;;.:</text>
-<text x="28" y="244">         **= ::::::..;;;;;;..:</text>
-<text x="28" y="255">          ..  ::::::.;;;..::</text>
-<text x="28" y="266">            = ::::::.;.::</text>
-<text x="28" y="277">               ::::::::</text>
-<text x="28" y="288">               :::::</text>
-<text x="28" y="299">                :</text></g>
-        <g class="t edge" font-size="9.6"><text x="28" y="123">                --+++---</text>
-<text x="28" y="134">        --------        --------</text>
-<text x="28" y="145">  +-----                   -------+</text>
-<text x="28" y="156">   \\\                 ----       |</text>
-<text x="28" y="167">   | \\\          -----          |</text>
-<text x="28" y="178">    |  \\\   -----               |</text>
-<text x="28" y="189">     |   \++-                    |</text>
-<text x="28" y="200">     |    ++                    |</text>
-<text x="28" y="211">      |    |                    |</text>
-<text x="28" y="222">      |    ||                   |</text>
-<text x="28" y="233">       +    |                  |</text>
-<text x="28" y="244">        \   |                 /+</text>
-<text x="28" y="255">         \  ||              //</text>
-<text x="28" y="266">          \\ |           ///</text>
-<text x="28" y="277">            \||        //</text>
-<text x="28" y="288">             \|     ///</text>
-<text x="28" y="299">              \| ///</text>
-<text x="28" y="310">               ++</text></g>
+        <g class="t logo" font-size="9.6"><text x="26" y="134">           @@@#**###*</text>
+<text x="26" y="145">          @#=~    :+**</text>
+<text x="26" y="156">         @*:        **=</text>
+<text x="26" y="167">         #+~        ##+</text>
+<text x="26" y="178">         #+~        ##+</text>
+<text x="26" y="189">         #+~        ##+</text>
+<text x="26" y="200">      @##################*</text>
+<text x="26" y="211">      +++++++++++++++++++=</text>
+<text x="26" y="222">      ++++++++    +++++++=</text>
+<text x="26" y="233">      ++++++++    +++++++=</text>
+<text x="26" y="244">      +++++++++  ++++++++=</text>
+<text x="26" y="255">      ++++++++    +++++++=</text>
+<text x="26" y="266">      +++++++++++++++++++=</text>
+<text x="26" y="277">      ,,,,,,,,,,,,,,,,,,,,</text></g>
+        <g class="t edge" font-size="9.6"><text x="26" y="145">              -  -</text>
+<text x="26" y="167">        |              |</text>
+<text x="26" y="178">        |              |</text>
+<text x="26" y="189">       -|   --------   |-</text>
+<text x="26" y="222">              :  :</text>
+<text x="26" y="233">              :  :</text>
+<text x="26" y="255">              ::::</text></g>
       </g>
       <g class="cf cf16">
-        <g class="t logo" font-size="9.6"><text x="28" y="134">                 @@@@..</text>
-<text x="28" y="145">         ..@@@@@@@@@@..%%%%</text>
-<text x="28" y="156">      %%%%%%.....%%%%      :::::::</text>
-<text x="28" y="167">        %%%%%%%%     :::::::::::::</text>
-<text x="28" y="178">     ++  %      :::::::::::::::::</text>
-<text x="28" y="189">      ++  ::::::::::::::::::..:::</text>
-<text x="28" y="200">       .+ :::::::::::::....;;.:::</text>
-<text x="28" y="211">       *.  ::::::::....;;;;;;.::</text>
-<text x="28" y="222">        *+ :::::::..;;;;;;;;;.::</text>
-<text x="28" y="233">        **  ::::::..;;;;;;;;.:::</text>
-<text x="28" y="244">         *+ ::::::..;;;;;;;;.::</text>
-<text x="28" y="255">          *  ::::::.;;;;..::</text>
-<text x="28" y="266">           + ::::::.;..::</text>
-<text x="28" y="277">              :::::.::</text>
-<text x="28" y="288">              :::::</text>
-<text x="28" y="299">               :</text></g>
-        <g class="t edge" font-size="9.6"><text x="28" y="123">                 --++--</text>
-<text x="28" y="134">         --------      ---------</text>
-<text x="28" y="145">   +-----                  -------+</text>
-<text x="28" y="156">   |\\               ------       |</text>
-<text x="28" y="167">    |\\\        -----             |</text>
-<text x="28" y="178">    |  \\ ------                 |</text>
-<text x="28" y="189">     |  ++                       |</text>
-<text x="28" y="200">      |  +                       |</text>
-<text x="28" y="211">      |  ||                     |</text>
-<text x="28" y="222">       |  |                     |</text>
-<text x="28" y="233">       +  ||                    |</text>
-<text x="28" y="244">        +  |                   +</text>
-<text x="28" y="255">         \ ||               ///</text>
-<text x="28" y="266">          \ |            ///</text>
-<text x="28" y="277">           \||        ///</text>
-<text x="28" y="288">            \|     ///</text>
-<text x="28" y="299">             \| ///</text>
-<text x="28" y="310">              ++</text></g>
+        <g class="t logo" font-size="9.6"><text x="26" y="134">           @@@#******</text>
+<text x="26" y="145">          @@+~    ~=++</text>
+<text x="26" y="156">         @#=        ++=</text>
+<text x="26" y="167">         #+~        #*=</text>
+<text x="26" y="178">         #+~        ##=</text>
+<text x="26" y="189">         #+~        ##=</text>
+<text x="26" y="200">       @########*********+~</text>
+<text x="26" y="211">      *+==================,</text>
+<text x="26" y="222">      *+=======    =======,</text>
+<text x="26" y="233">      *+=======    =======,</text>
+<text x="26" y="244">       +========  ========,</text>
+<text x="26" y="255">       +=======    =======,</text>
+<text x="26" y="266">       +==================,</text>
+<text x="26" y="277">       =:~~~~,,,,,,,,,</text></g>
+        <g class="t edge" font-size="9.6"><text x="26" y="123">                -</text>
+<text x="26" y="145">              -  -</text>
+<text x="26" y="156">            |</text>
+<text x="26" y="189">             -------   --</text>
+<text x="26" y="200">     ||</text>
+<text x="26" y="211">     |</text>
+<text x="26" y="222">     |         ::::</text>
+<text x="26" y="233">     |          :::</text>
+<text x="26" y="244">     ||         ::</text>
+<text x="26" y="255">     ||        ::::</text>
+<text x="26" y="266">     ||</text>
+<text x="26" y="277">      |               ---</text></g>
       </g>
       <g class="cf cf17">
-        <g class="t logo" font-size="9.6"><text x="28" y="134">                  @@@..</text>
-<text x="28" y="145">         %..@@@@@@@@@..%%%</text>
-<text x="28" y="156">      %%%%%%....%%%%      ::::::::</text>
-<text x="28" y="167">       %%%%%%       ::::::::::::::</text>
-<text x="28" y="178">             ::::::::::::::::::::</text>
-<text x="28" y="189">         ::::::::::::::::::...:::</text>
-<text x="28" y="200">       . :::::::::::::.....;;.:::</text>
-<text x="28" y="211">          :::::::.....;;;;;;..::</text>
-<text x="28" y="222">        # :::::::..;;;;;;;;;.:::</text>
-<text x="28" y="233">           ::::::..;;;;;;;;;.:::</text>
-<text x="28" y="244">           :::::::.;;;;;;;;;.::</text>
-<text x="28" y="255">            ::::::.;;;;;..:::</text>
-<text x="28" y="266">            ::::::.....:::</text>
-<text x="28" y="277">             :::::.:::</text>
-<text x="28" y="288">             ::::::</text>
-<text x="28" y="299">              :</text></g>
-        <g class="t edge" font-size="9.6"><text x="28" y="123">                  --++-</text>
-<text x="28" y="134">         ---------     --------</text>
-<text x="28" y="145">   +\----                 --------+</text>
-<text x="28" y="156">    \\              ------        |</text>
-<text x="28" y="167">    |\\      -------              |</text>
-<text x="28" y="178">     |\++----                    |</text>
-<text x="28" y="189">      |++                        |</text>
-<text x="28" y="200">      | |                        |</text>
-<text x="28" y="211">       |||                      |</text>
-<text x="28" y="222">       | |                      |</text>
-<text x="28" y="233">        +||                     |</text>
-<text x="28" y="244">         \|                    |</text>
-<text x="28" y="255">         \||                 //+</text>
-<text x="28" y="266">          \|              ///</text>
-<text x="28" y="277">           \|         ////</text>
-<text x="28" y="288">            |      ///</text>
-<text x="28" y="299">             | ////</text>
-<text x="28" y="310">              +</text></g>
+        <g class="t logo" font-size="9.6"><text x="26" y="134">            @@#++++++</text>
+<text x="26" y="145">          @@*~~   ~:==</text>
+<text x="26" y="156">         @@+~      =++~</text>
+<text x="26" y="167">         @#:        #*:</text>
+<text x="26" y="178">         #*:        #*~</text>
+<text x="26" y="189">         #*:        #*~</text>
+<text x="26" y="200">     *@@@####*****+++===::,</text>
+<text x="26" y="211">     ****:::::::::::::::::,</text>
+<text x="26" y="222">     ****:::::::    ::::::,</text>
+<text x="26" y="233">     ****:::::::    ::::::,</text>
+<text x="26" y="244">     ****::::::::  :::::::,</text>
+<text x="26" y="255">     ****:::::::   :::::::,</text>
+<text x="26" y="266">     ****:::::::::::::::::,</text>
+<text x="26" y="277">        *::~~,,,,,,,</text></g>
+        <g class="t edge" font-size="9.6"><text x="26" y="123">                -</text>
+<text x="26" y="145">                 -</text>
+<text x="26" y="189">              ------   --</text>
+<text x="26" y="222">                ::::</text>
+<text x="26" y="233">                ::::</text>
+<text x="26" y="244">                 ::</text>
+<text x="26" y="255">                :::</text>
+<text x="26" y="277">       |            -</text></g>
       </g>
       <g class="cf cf18">
-        <g class="t logo" font-size="9.6"><text x="28" y="134">                   @@..</text>
-<text x="28" y="145">        %%..@@@@@@@@@..%%%</text>
-<text x="28" y="156">      %%%%%%...%%%        ::::::::</text>
-<text x="28" y="167">       %%%        ::::::::::::::::</text>
-<text x="28" y="178">          :::::::::::::::::::::::</text>
-<text x="28" y="189">        ::::::::::::::::::::..:::</text>
-<text x="28" y="200">        :::::::::::::......;..:::</text>
-<text x="28" y="211">         :::::::.....;;;;;;;.::::</text>
-<text x="28" y="222">         :::::::..;;;;;;;;;;.:::</text>
-<text x="28" y="233">          ::::::..;;;;;;;;;;.:::</text>
-<text x="28" y="244">          :::::::.;;;;;;;;;;.:::</text>
-<text x="28" y="255">           ::::::..;;;;;...:::</text>
-<text x="28" y="266">           ::::::..;..::::</text>
-<text x="28" y="277">            :::::.::::</text>
-<text x="28" y="288">            ::::::</text>
-<text x="28" y="299">             :</text></g>
-        <g class="t edge" font-size="9.6"><text x="28" y="123">                   --++</text>
-<text x="28" y="134">        -----------    -------</text>
-<text x="28" y="145">    +---                  --------+</text>
-<text x="28" y="156">     \            --------        |</text>
-<text x="28" y="167">     \\   --------                |</text>
-<text x="28" y="178">      ++--                       |</text>
-<text x="28" y="189">      ++                         |</text>
-<text x="28" y="200">       |                         |</text>
-<text x="28" y="211">       ||                        |</text>
-<text x="28" y="222">        +                       |</text>
-<text x="28" y="233">        +|                      |</text>
-<text x="28" y="244">         |                      |</text>
-<text x="28" y="255">         ||                   /+</text>
-<text x="28" y="266">          |               ////</text>
-<text x="28" y="277">           |          ////</text>
-<text x="28" y="288">           |      ////</text>
-<text x="28" y="299">            | ////</text>
-<text x="28" y="310">             +</text></g>
+        <g class="t logo" font-size="9.6"><text x="26" y="134">            @@#+=:==</text>
+<text x="26" y="145">           @@=~   ~::</text>
+<text x="26" y="156">          @#=      ==:</text>
+<text x="26" y="167">          @*~      #*=</text>
+<text x="26" y="178">          #+~      ##=</text>
+<text x="26" y="189">          #+~      ##=</text>
+<text x="26" y="200">     #@@@@ #***+++==::~~~~</text>
+<text x="26" y="211">     *****+~~~~~~~~~~~~~~~</text>
+<text x="26" y="222">     *****+~~~~~~   ~~~~~~</text>
+<text x="26" y="233">     *****+~~~~~~   ~~~~~~</text>
+<text x="26" y="244">     *****+~~~~~~~  ~~~~~~</text>
+<text x="26" y="255">     *****+~~~~~~   ~~~~~~</text>
+<text x="26" y="266">     *****+~~~~~~~~~~~~~~~</text>
+<text x="26" y="277">       =**+~~~,,,,,</text></g>
+        <g class="t edge" font-size="9.6"><text x="26" y="123">                -</text>
+<text x="26" y="145">                 -   |</text>
+<text x="26" y="156">             |</text>
+<text x="26" y="167">         |</text>
+<text x="26" y="178">         |</text>
+<text x="26" y="189">         |    -----   ---</text>
+<text x="26" y="200">          -</text>
+<text x="26" y="222">                 :::</text>
+<text x="26" y="233">                 :::</text>
+<text x="26" y="244">                  ::</text>
+<text x="26" y="255">                 :::</text>
+<text x="26" y="277">      \            -</text></g>
       </g>
       <g class="cf cf19">
-        <g class="t logo" font-size="9.6"><text x="28" y="134">                     ..</text>
-<text x="28" y="145">       %%%%..@@@@@@@....%</text>
-<text x="28" y="156">      %%%%%%.%%%         :::::::::</text>
-<text x="28" y="167">                ::::::::::::::::::</text>
-<text x="28" y="178">       :::::::::::::::::::::::::::</text>
-<text x="28" y="189">       :::::::::::::::::::::.::::</text>
-<text x="28" y="200">        ::::::::::::.......;.::::</text>
-<text x="28" y="211">        :::::::.....;;;;;;;;.::::</text>
-<text x="28" y="222">         ::::::..;;;;;;;;;;;.:::</text>
-<text x="28" y="233">         ::::::..;;;;;;;;;;..:::</text>
-<text x="28" y="244">          ::::::.;;;;;;;;;;..:::</text>
-<text x="28" y="255">          ::::::..;;;;;;....:::</text>
-<text x="28" y="266">           :::::..;...:::::</text>
-<text x="28" y="277">           :::::.:::::</text>
-<text x="28" y="288">            :::::</text></g>
-        <g class="t edge" font-size="9.6"><text x="28" y="123">                     ++</text>
-<text x="28" y="134">       --------------  -------</text>
-<text x="28" y="145">     |-                  ---------++</text>
-<text x="28" y="156">     |          ---------         |</text>
-<text x="28" y="167">      +---------                  |</text>
-<text x="28" y="178">      +                           |</text>
-<text x="28" y="189">      +                          |</text>
-<text x="28" y="200">       |                         |</text>
-<text x="28" y="211">       |                         |</text>
-<text x="28" y="222">        |                       |</text>
-<text x="28" y="233">        |                       |</text>
-<text x="28" y="244">         |                      |</text>
-<text x="28" y="255">         |                     +</text>
-<text x="28" y="266">          |                ----+</text>
-<text x="28" y="277">          |           -----</text>
-<text x="28" y="288">           |     -----</text>
-<text x="28" y="299">           +-----</text></g>
+        <g class="t logo" font-size="9.6"><text x="26" y="134">             @@+:~::</text>
+<text x="26" y="145">           @@#:  ~~~~</text>
+<text x="26" y="156">           @#:    ==:</text>
+<text x="26" y="167">          @@+~    ##=</text>
+<text x="26" y="178">          ##+~    ##+</text>
+<text x="26" y="189">          ##+~     #=   *</text>
+<text x="26" y="200">      @@@@@   *++=::~,,,,,</text>
+<text x="26" y="211">      ******=,,,,,,,,,,,,,</text>
+<text x="26" y="222">      ******=,,,,,   ,,,,,</text>
+<text x="26" y="233">      ******=,,,,,   ,,,,,</text>
+<text x="26" y="244">      ******=,,,,,  ,,,,,,</text>
+<text x="26" y="255">      ******=,,,,,  ,,,,,,</text>
+<text x="26" y="266">      ******=,,,,,,,,,,,,</text>
+<text x="26" y="277">      :+****=,,,,,</text></g>
+        <g class="t edge" font-size="9.6"><text x="26" y="123">                -</text>
+<text x="26" y="145">               |</text>
+<text x="26" y="167">                     |</text>
+<text x="26" y="178">                     |</text>
+<text x="26" y="189">              -----  ---</text>
+<text x="26" y="200">           ---</text>
+<text x="26" y="222">                  :::</text>
+<text x="26" y="233">                  :::</text>
+<text x="26" y="244">                  ::</text>
+<text x="26" y="255">                  ::</text>
+<text x="26" y="277">                  -</text></g>
       </g>
       <g class="cf cf20">
-        <g class="t logo" font-size="9.6"><text x="28" y="145">      #####..@@@@@@@....#</text>
-<text x="28" y="156">      #######            :::::::::</text>
-<text x="28" y="167">             :::::::::::::::::::::</text>
-<text x="28" y="178">      ::::::::::::::::::::::::::::</text>
-<text x="28" y="189">       ::::::::::::::::::::::::::</text>
-<text x="28" y="200">       ::::::::::::..........::::</text>
-<text x="28" y="211">        ::::::.....;;;;;;;;..::::</text>
-<text x="28" y="222">        ::::::..;;;;;;;;;;;..:::</text>
-<text x="28" y="233">        :::::::.;;;;;;;;;;;.::::</text>
-<text x="28" y="244">         ::::::..;;;;;;;;;;.::::</text>
-<text x="28" y="255">         ::::::..;;;;;;;;...:::</text>
-<text x="28" y="266">          :::::..;....::::::</text>
-<text x="28" y="277">          ::::::::::::</text>
-<text x="28" y="288">           :::::</text></g>
-        <g class="t edge" font-size="9.6"><text x="28" y="134">      -----------------+-----</text>
-<text x="28" y="145">     +                   ----------</text>
-<text x="28" y="156">     |       ------------         -</text>
-<text x="28" y="167">     +-------                     |</text>
-<text x="28" y="178">     +                            |</text>
-<text x="28" y="189">      |                          |</text>
-<text x="28" y="200">      |                          |</text>
-<text x="28" y="211">       |                         |</text>
-<text x="28" y="222">       |                        |</text>
-<text x="28" y="233">       |                        |</text>
-<text x="28" y="244">        |                       |</text>
-<text x="28" y="255">        |                      |</text>
-<text x="28" y="266">         |                  ---+</text>
-<text x="28" y="277">         |            ------</text>
-<text x="28" y="288">          |     ------</text>
-<text x="28" y="299">          +-----</text></g>
+        <g class="t logo" font-size="9.6"><text x="26" y="134">             @@*:~~</text>
+<text x="26" y="145">            @@*~ ~~~</text>
+<text x="26" y="156">            @#:  +=:</text>
+<text x="26" y="167">           @@*~  ##+</text>
+<text x="26" y="178">           ##+~  ##+</text>
+<text x="26" y="189">           ##+~        +</text>
+<text x="26" y="200">       @@@@     +=:~,,,,</text>
+<text x="26" y="211">       *******=,,,,,,,,,</text>
+<text x="26" y="222">       *******=,,,,  ,,,</text>
+<text x="26" y="233">       *******=,,,,  ,,,</text>
+<text x="26" y="244">       *******=,,,,  ,,,</text>
+<text x="26" y="255">       *******=,,,,  ,,,</text>
+<text x="26" y="266">       *******=,,,,,,,,</text>
+<text x="26" y="277">       *******=,,,</text></g>
+        <g class="t edge" font-size="9.6"><text x="26" y="123">                -</text>
+<text x="26" y="145">                \</text>
+<text x="26" y="167">                    |</text>
+<text x="26" y="178">                    |</text>
+<text x="26" y="189">               --------</text>
+<text x="26" y="200">           -----        |</text>
+<text x="26" y="211">                        |</text>
+<text x="26" y="222">                   ::</text>
+<text x="26" y="233">                   ::</text>
+<text x="26" y="244">                   ::</text>
+<text x="26" y="255">                   ::</text>
+<text x="26" y="266">                       /</text>
+<text x="26" y="277">                  |</text></g>
       </g>
       <g class="cf cf21">
-        <g class="t logo" font-size="9.6"><text x="28" y="145">      #####..@@@@@@@@.....</text>
-<text x="28" y="156">      ##                  :::::::</text>
-<text x="28" y="167">        ::::::::::::::::::::::::::</text>
-<text x="28" y="178">      ::::::::::::::::::::::::::::</text>
-<text x="28" y="189">      :::::::::::::::::::::::::::</text>
-<text x="28" y="200">      ::::::::::::...........::::</text>
-<text x="28" y="211">       ::::::....~~~~~~~~~~.:::::</text>
-<text x="28" y="222">       ::::::..~~~~~~~~~~~~.::::</text>
-<text x="28" y="233">        ::::::.~~~~~~~~~~~..::::</text>
-<text x="28" y="244">        ::::::..~~~~~~~~~~..:::</text>
-<text x="28" y="255">        ::::::..~~~~~~~~~~.::::</text>
-<text x="28" y="266">         :::::..~.....::::::::</text>
-<text x="28" y="277">         :::::::::::::</text>
-<text x="28" y="288">          ::::</text></g>
-        <g class="t edge" font-size="9.6"><text x="28" y="134">      +----------------++---</text>
-<text x="28" y="145">     |                    -------</text>
-<text x="28" y="156">     |  ------------------       --</text>
-<text x="28" y="167">    +---                          |</text>
-<text x="28" y="178">     -                            |</text>
-<text x="28" y="189">     |                           |</text>
-<text x="28" y="200">     |                           |</text>
-<text x="28" y="211">      |                          |</text>
-<text x="28" y="222">      |                         |</text>
-<text x="28" y="233">       |                        |</text>
-<text x="28" y="244">       |                       |</text>
-<text x="28" y="255">       |                       |</text>
-<text x="28" y="266">        |                     -+</text>
-<text x="28" y="277">        |             --------</text>
-<text x="28" y="288">         |    --------</text>
-<text x="28" y="299">         +----</text></g>
+        <g class="t logo" font-size="9.6"><text x="26" y="134">              @@=</text>
+<text x="26" y="145">             @@* ~~</text>
+<text x="26" y="156">             @#=+=~</text>
+<text x="26" y="167">             @*~##=</text>
+<text x="26" y="178">             #+~##=</text>
+<text x="26" y="189">             #+~</text>
+<text x="26" y="200">         @#</text>
+<text x="26" y="211">         *******+,</text>
+<text x="26" y="222">         *******+,</text>
+<text x="26" y="233">         *******+,</text>
+<text x="26" y="244">         *******+,</text>
+<text x="26" y="255">         *******+,</text>
+<text x="26" y="266">         *******+,</text>
+<text x="26" y="277">         *******+,</text></g>
+        <g class="t edge" font-size="9.6"><text x="26" y="123">                -</text>
+<text x="26" y="134">                 ||</text>
+<text x="26" y="145">                |</text>
+<text x="26" y="167">            |</text>
+<text x="26" y="178">            |</text>
+<text x="26" y="189">            |   ------|</text>
+<text x="26" y="200">           -------\||||</text>
+<text x="26" y="211">        |         |||||</text>
+<text x="26" y="222">        |         ||:||</text>
+<text x="26" y="233">        |         ||:||</text>
+<text x="26" y="244">        |         ||:||</text>
+<text x="26" y="255">        |         ||:||</text>
+<text x="26" y="266">        |         ||||</text>
+<text x="26" y="277">        |         |</text>
+<text x="26" y="288">                -</text></g>
       </g>
       <g class="cf cf22">
-        <g class="t logo" font-size="9.6"><text x="28" y="145">       ####..@@@@@@@@@....##</text>
-<text x="28" y="156">                              ::</text>
-<text x="28" y="167">     :::::::::::::::::::::::::::::</text>
-<text x="28" y="178">     :::::::::::::::::::::::::::::</text>
-<text x="28" y="189">     ::::::::::::::::::::::::::::</text>
-<text x="28" y="200">      :::::::::::...........:::::</text>
-<text x="28" y="211">      ::::::...~~~~~~~~~~~..::::</text>
-<text x="28" y="222">       ::::::.~~~~~~~~~~~~..::::</text>
-<text x="28" y="233">       ::::::..~~~~~~~~~~~.:::::</text>
-<text x="28" y="244">       ::::::..~~~~~~~~~~~.::::</text>
-<text x="28" y="255">        :::::..~~~~~~~~~~..::::</text>
-<text x="28" y="266">        :::::..........:::::::</text>
-<text x="28" y="277">        :::::::::::::::</text>
-<text x="28" y="288">         ::</text></g>
-        <g class="t edge" font-size="9.6"><text x="28" y="134">       +----------------++\\</text>
-<text x="28" y="145">      /                     \\\\</text>
-<text x="28" y="156">    //------------------------  ---+</text>
-<text x="28" y="167">    +                             |</text>
-<text x="28" y="178">    |                             |</text>
-<text x="28" y="189">    |                            |</text>
-<text x="28" y="200">     |                           |</text>
-<text x="28" y="211">     |                          |</text>
-<text x="28" y="222">      |                         |</text>
-<text x="28" y="233">      |                         |</text>
-<text x="28" y="244">      |                        |</text>
-<text x="28" y="255">       |                       |</text>
-<text x="28" y="266">       |                      |</text>
-<text x="28" y="277">       |               -------+</text>
-<text x="28" y="288">        |  ------------</text>
-<text x="28" y="299">        +--</text></g>
+        <g class="t logo" font-size="9.6"><text x="26" y="134">              @@#</text>
+<text x="26" y="145">              @@*~</text>
+<text x="26" y="156">              @@=~</text>
+<text x="26" y="167">              @#::</text>
+<text x="26" y="178">              #*:=</text>
+<text x="26" y="189">              #*:</text>
+<text x="26" y="211">          *++++++++,</text>
+<text x="26" y="222">          *++++++++,</text>
+<text x="26" y="233">          *++++++++,</text>
+<text x="26" y="244">          *++++++++,</text>
+<text x="26" y="255">          *++++++++,</text>
+<text x="26" y="266">          *++++++++,</text>
+<text x="26" y="277">          *++++++++,</text></g>
+        <g class="t edge" font-size="9.6"><text x="26" y="134">                 |</text>
+<text x="26" y="189">            --   ----</text>
+<text x="26" y="200">           ---------|</text>
+<text x="26" y="211">                    |</text>
+<text x="26" y="222">                    :</text>
+<text x="26" y="233">                    :</text>
+<text x="26" y="244">                    |</text>
+<text x="26" y="255">                    |</text>
+<text x="26" y="266">                    |</text></g>
       </g>
       <g class="cf cf23">
-        <g class="t logo" font-size="9.6"><text x="28" y="145">       ####..@@@@@@@@@@@..##</text>
-<text x="28" y="167">    ::::::::::::::::::::::::::::::</text>
-<text x="28" y="178">    ::::::::::::::::::::::::::::::</text>
-<text x="28" y="189">     ::::::::::::::::::::::::::::</text>
-<text x="28" y="200">     :::::::::..............:::::</text>
-<text x="28" y="211">      ::::::..~~~~~~~~~~~~.:::::</text>
-<text x="28" y="222">      ::::::..~~~~~~~~~~~..:::::</text>
-<text x="28" y="233">      ::::::..~~~~~~~~~~~..::::</text>
-<text x="28" y="244">       :::::..~~~~~~~~~~~.:::::</text>
-<text x="28" y="255">       :::::..~~~~~~~~~~~.::::</text>
-<text x="28" y="266">       :::::..............::::</text>
-<text x="28" y="277">        :::::::::::::::::</text></g>
-        <g class="t edge" font-size="9.6"><text x="28" y="134">       ++----------------++\</text>
-<text x="28" y="145">     //                     \\\\</text>
-<text x="28" y="156">    /-----------------------------+</text>
-<text x="28" y="167">   +                              |</text>
-<text x="28" y="178">   |                              |</text>
-<text x="28" y="189">    |                            |</text>
-<text x="28" y="200">    |                            |</text>
-<text x="28" y="211">     |                          |</text>
-<text x="28" y="222">     |                          |</text>
-<text x="28" y="233">     |                         |</text>
-<text x="28" y="244">      |                        |</text>
-<text x="28" y="255">      |                       |</text>
-<text x="28" y="266">      |                       |</text>
-<text x="28" y="277">       |                 ----++</text>
-<text x="28" y="288">       +-----------------</text></g>
+        <g class="t logo" font-size="9.6"><text x="26" y="134">               @@+</text>
+<text x="26" y="145">              =@@*</text>
+<text x="26" y="156">              *@@+</text>
+<text x="26" y="167">              #@#+</text>
+<text x="26" y="178">              ##*=</text>
+<text x="26" y="189">               #*=</text>
+<text x="26" y="211">            *========,</text>
+<text x="26" y="222">            *========,</text>
+<text x="26" y="233">            *+=======,</text>
+<text x="26" y="244">            *+=======,</text>
+<text x="26" y="255">            *+=======,</text>
+<text x="26" y="266">            *+=======,</text>
+<text x="26" y="277">            *+=======,</text></g>
+        <g class="t edge" font-size="9.6"><text x="26" y="134">              |</text>
+<text x="26" y="189">           ----   --</text>
+<text x="26" y="200">           |---------</text>
+<text x="26" y="211">           |</text>
+<text x="26" y="222">           :</text>
+<text x="26" y="233">           :</text>
+<text x="26" y="244">           |</text>
+<text x="26" y="255">           |</text>
+<text x="26" y="266">           |</text></g>
       </g>
       <g class="cf cf24">
-        <g class="t logo" font-size="9.6"><text x="28" y="145">       ####..@@@@@@@@@@@..##</text>
-<text x="28" y="167">    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;</text>
-<text x="28" y="178">    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;</text>
-<text x="28" y="189">    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;</text>
-<text x="28" y="200">     ;;;;;;................;;;;;;</text>
-<text x="28" y="211">     ;;;;;;..~~~~~~~~~~~~..;;;;;</text>
-<text x="28" y="222">     ;;;;;;..~~~~~~~~~~~~.;;;;;;</text>
-<text x="28" y="233">      ;;;;;..~~~~~~~~~~~..;;;;;</text>
-<text x="28" y="244">      ;;;;;..~~~~~~~~~~~..;;;;;</text>
-<text x="28" y="255">      ;;;;;..~~~~~~~~~~~.;;;;;</text>
-<text x="28" y="266">       ;;;;;.............;;;;;</text>
-<text x="28" y="277">       ;;;;;;;;;;;;;;;;;;;;;;</text></g>
-        <g class="t edge" font-size="9.6"><text x="28" y="134">       /++----------------++</text>
-<text x="28" y="145">     //                     \\\</text>
-<text x="28" y="156">   /----------------------------\\</text>
-<text x="28" y="167">   -                              +</text>
-<text x="28" y="178">   |                              |</text>
-<text x="28" y="189">   |                             |</text>
-<text x="28" y="200">    |                            |</text>
-<text x="28" y="211">    |                           |</text>
-<text x="28" y="222">    |                           |</text>
-<text x="28" y="233">     |                         |</text>
-<text x="28" y="244">     |                         |</text>
-<text x="28" y="255">     |                        |</text>
-<text x="28" y="266">      |                       |</text>
-<text x="28" y="277">      |                      |</text>
-<text x="28" y="288">      ++--------------------++</text></g>
+        <g class="t logo" font-size="9.6"><text x="26" y="134">               @@@</text>
+<text x="26" y="145">             +~ @@*</text>
+<text x="26" y="156">             *:~@@*</text>
+<text x="26" y="167">             #+~@@+</text>
+<text x="26" y="178">             #+~##+</text>
+<text x="26" y="189">                ##+</text>
+<text x="26" y="200">                     ##</text>
+<text x="26" y="211">              *+:::::::</text>
+<text x="26" y="222">              *+:::::::</text>
+<text x="26" y="233">              *+:::::::</text>
+<text x="26" y="244">              *+:::::::</text>
+<text x="26" y="255">              *+:::::::</text>
+<text x="26" y="266">              *+:::::::</text>
+<text x="26" y="277">              *+:::::::</text></g>
+        <g class="t edge" font-size="9.6"><text x="26" y="123">               -</text>
+<text x="26" y="134">             ||</text>
+<text x="26" y="145">               |</text>
+<text x="26" y="167">                   |</text>
+<text x="26" y="178">                   |</text>
+<text x="26" y="189">         |------   |</text>
+<text x="26" y="200">         ||||/-------</text>
+<text x="26" y="211">         |||||         |</text>
+<text x="26" y="222">         ||:||         |</text>
+<text x="26" y="233">         ||:||         |</text>
+<text x="26" y="244">         ||:||         |</text>
+<text x="26" y="255">         ||:||         |</text>
+<text x="26" y="266">          ||||         |</text>
+<text x="26" y="277">             |         |</text>
+<text x="26" y="288">               -</text></g>
       </g>
       <g class="cf cf25">
-        <g class="t logo" font-size="9.6"><text x="28" y="145">       ####..@@@@@@@@@@@.###</text>
-<text x="28" y="167">   ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;</text>
-<text x="28" y="178">    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;</text>
-<text x="28" y="189">    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;</text>
-<text x="28" y="200">    ;;;;;;........;;;;;;;;;;;;;;</text>
-<text x="28" y="211">     ;;;;;..==========....;;;;;;</text>
-<text x="28" y="222">     ;;;;;..============..;;;;;</text>
-<text x="28" y="233">     ;;;;;..============.;;;;;;</text>
-<text x="28" y="244">      ;;;;..===========..;;;;;</text>
-<text x="28" y="255">      ;;;;;.===========..;;;;;</text>
-<text x="28" y="266">      ;;;;;.............;;;;;</text>
-<text x="28" y="277">      ;;;;;;;;;;;;;;;;;;;;;;;</text></g>
-        <g class="t edge" font-size="9.6"><text x="28" y="134">       //+-----------------+</text>
-<text x="28" y="145">     //                     \\\</text>
-<text x="28" y="156">  +----------------------------\\</text>
-<text x="28" y="167">  +                              -+</text>
-<text x="28" y="178">   |                             |</text>
-<text x="28" y="189">   |                             |</text>
-<text x="28" y="200">   |                            |</text>
-<text x="28" y="211">    |                           |</text>
-<text x="28" y="222">    |                          |</text>
-<text x="28" y="233">    |                          |</text>
-<text x="28" y="244">     |                        |</text>
-<text x="28" y="255">     |                        |</text>
-<text x="28" y="266">     |                       |</text>
-<text x="28" y="277">     +                       |</text>
-<text x="28" y="288">      +---------------------+</text></g>
+        <g class="t logo" font-size="9.6"><text x="26" y="134">             @#@@@#</text>
+<text x="26" y="145">            #:~ #@@+</text>
+<text x="26" y="156">            *:~  @@*</text>
+<text x="26" y="167">            #+~  #@*~</text>
+<text x="26" y="178">            #+~  ##+~</text>
+<text x="26" y="189">        @        ##+~</text>
+<text x="26" y="200">        ****#@@@     ###=</text>
+<text x="26" y="211">        *********+~~~~~~~</text>
+<text x="26" y="222">        ***  ****+~~~~~~~</text>
+<text x="26" y="233">        ***  ****+~~~~~~~</text>
+<text x="26" y="244">        ***  ****+~~~~~~~</text>
+<text x="26" y="255">        ***  ****+~~~~~~~</text>
+<text x="26" y="266">         =*******+~~~~~~~</text>
+<text x="26" y="277">              +**+~~~~~~,</text></g>
+        <g class="t edge" font-size="9.6"><text x="26" y="123">               -</text>
+<text x="26" y="145">               /</text>
+<text x="26" y="167">           |</text>
+<text x="26" y="178">           |</text>
+<text x="26" y="189">         --------</text>
+<text x="26" y="200">       |        -----</text>
+<text x="26" y="211">       |</text>
+<text x="26" y="222">           ::</text>
+<text x="26" y="233">           ::</text>
+<text x="26" y="244">           ::</text>
+<text x="26" y="255">           ::</text>
+<text x="26" y="266">        \</text>
+<text x="26" y="277">             |</text></g>
       </g>
       <g class="cf cf26">
-        <g class="t logo" font-size="9.6"><text x="28" y="134">          #</text>
-<text x="28" y="145">       ####...@@@@@@@@@@.####</text>
-<text x="28" y="156">                          #####</text>
-<text x="28" y="167">   ;;;;;;;;;;;;;;;;;;;;;;</text>
-<text x="28" y="178">   ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;</text>
-<text x="28" y="189">    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;</text>
-<text x="28" y="200">    ;;;;;.......;;;;;;;;;;;;;;;;</text>
-<text x="28" y="211">    ;;;;;..=======.......;;;;;;</text>
-<text x="28" y="222">    ;;;;;;.============..;;;;;;</text>
-<text x="28" y="233">     ;;;;;.============..;;;;;</text>
-<text x="28" y="244">     ;;;;;.============.;;;;;;</text>
-<text x="28" y="255">     ;;;;;.===========..;;;;;</text>
-<text x="28" y="266">      ;;;;;.............;;;;;</text>
-<text x="28" y="277">            ;;;;;;;;;;;;;;;;</text></g>
-        <g class="t edge" font-size="9.6"><text x="28" y="123">          +</text>
-<text x="28" y="134">       /// ----------------++</text>
-<text x="28" y="145">    ///                      \\</text>
-<text x="28" y="156">  +-----------------------     \</text>
-<text x="28" y="167">  |                      --------\</text>
-<text x="28" y="178">  |                              |</text>
-<text x="28" y="189">   |                             |</text>
-<text x="28" y="200">   |                            |</text>
-<text x="28" y="211">   |                           |</text>
-<text x="28" y="222">   |                           |</text>
-<text x="28" y="233">    |                         |</text>
-<text x="28" y="244">    |                         |</text>
-<text x="28" y="255">    |                        |</text>
-<text x="28" y="266">     |                       |</text>
-<text x="28" y="277">     +------                |</text>
-<text x="28" y="288">            ---------------+</text></g>
+        <g class="t logo" font-size="9.6"><text x="26" y="134">            @@#@@@@</text>
+<text x="26" y="145">           @+~~  @@@=</text>
+<text x="26" y="156">           #=~    @@*</text>
+<text x="26" y="167">           #+~    ##*~</text>
+<text x="26" y="178">           #+~    ##+~</text>
+<text x="26" y="189">       @   #+     ##+~</text>
+<text x="26" y="200">      *****#@@@@@@   ***++</text>
+<text x="26" y="211">      *************+,,,,,,</text>
+<text x="26" y="222">      *****   *****+~,,,,,</text>
+<text x="26" y="233">      *****   *****+~,,,,,</text>
+<text x="26" y="244">      ******  *****+~,,,,,</text>
+<text x="26" y="255">      ******  *****+~,,,,,</text>
+<text x="26" y="266">       =***********+~,,,,,</text>
+<text x="26" y="277">              :+***+,,,,,,</text></g>
+        <g class="t edge" font-size="9.6"><text x="26" y="123">               -</text>
+<text x="26" y="145">                |</text>
+<text x="26" y="167">          |</text>
+<text x="26" y="178">          |</text>
+<text x="26" y="189">        ---  -----</text>
+<text x="26" y="200">                  ---</text>
+<text x="26" y="222">           :::</text>
+<text x="26" y="233">           :::</text>
+<text x="26" y="244">            ::</text>
+<text x="26" y="255">            ::</text>
+<text x="26" y="277">             -</text></g>
       </g>
       <g class="cf cf27">
-        <g class="t logo" font-size="9.6"><text x="28" y="134">          ###.</text>
-<text x="28" y="145">       ####...@@@@@@@@@@.####</text>
-<text x="28" y="156">    ;                ####.#####</text>
-<text x="28" y="167">   ;;;;;;;;;;;;;;;;;</text>
-<text x="28" y="178">   ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;</text>
-<text x="28" y="189">   ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;</text>
-<text x="28" y="200">    ;;;;;......;;;;;;;;;;;;;;;;;</text>
-<text x="28" y="211">    ;;;;;..=====.........;;;;;;</text>
-<text x="28" y="222">    ;;;;;..===========..;;;;;;</text>
-<text x="28" y="233">    ;;;;;..===========..;;;;;;</text>
-<text x="28" y="244">     ;;;;..===========..;;;;;</text>
-<text x="28" y="255">     ;;;;..==========..;;;;;;</text>
-<text x="28" y="266">     ;;;;;;;;.......=..;;;;;</text>
-<text x="28" y="277">              ;;;;;;;;;;;;;</text>
-<text x="28" y="288">                         ;;</text></g>
-        <g class="t edge" font-size="9.6"><text x="28" y="123">          ++--</text>
-<text x="28" y="134">       ///    --------------+</text>
-<text x="28" y="145">    ///                      +\</text>
-<text x="28" y="156"> +-- ----------------          \</text>
-<text x="28" y="167">  |                 ------------\</text>
-<text x="28" y="178">  |                              +</text>
-<text x="28" y="189">  |                             |</text>
-<text x="28" y="200">   |                            |</text>
-<text x="28" y="211">   |                           |</text>
-<text x="28" y="222">   |                          |</text>
-<text x="28" y="233">   |                          |</text>
-<text x="28" y="244">    |                        |</text>
-<text x="28" y="255">    |                        |</text>
-<text x="28" y="266">    |                       |</text>
-<text x="28" y="277">     +--------             |</text>
-<text x="28" y="288">              -----------  |</text>
-<text x="28" y="299">                         -+</text></g>
+        <g class="t logo" font-size="9.6"><text x="26" y="134">            @@@@@@@#</text>
+<text x="26" y="145">           #=~   +@@#</text>
+<text x="26" y="156">          #+~      @#+</text>
+<text x="26" y="167">          #+~      ##+</text>
+<text x="26" y="178">          #+~      ##+</text>
+<text x="26" y="189">          #+~      ##=</text>
+<text x="26" y="200">      ****##@@@@@@@@@ *+=:~</text>
+<text x="26" y="211">      ***************+,,,,,</text>
+<text x="26" y="222">      ******   ******+,,,,,</text>
+<text x="26" y="233">      ******   ******+,,,,,</text>
+<text x="26" y="244">      ******  *******+,,,,,</text>
+<text x="26" y="255">      ******   ******+,,,,,</text>
+<text x="26" y="266">      ***************+,,,,,</text>
+<text x="26" y="277">             ,~:=+***+,,,</text></g>
+        <g class="t edge" font-size="9.6"><text x="26" y="123">               -</text>
+<text x="26" y="145">          |   -</text>
+<text x="26" y="156">                  |</text>
+<text x="26" y="167">                      |</text>
+<text x="26" y="178">                      |</text>
+<text x="26" y="189">       ---   -----    |</text>
+<text x="26" y="200">                     -</text>
+<text x="26" y="222">            :::</text>
+<text x="26" y="233">            :::</text>
+<text x="26" y="244">            ::</text>
+<text x="26" y="255">            :::</text>
+<text x="26" y="277">            -            /</text></g>
       </g>
       <g class="cf cf28">
-        <g class="t logo" font-size="9.6"><text x="28" y="134">           ##..@</text>
-<text x="28" y="145">       ###....@@@@@@@@@@..####</text>
-<text x="28" y="156">   ~~             ####...######</text>
-<text x="28" y="167">  ~~~~~~~~~~~~~~~             #</text>
-<text x="28" y="178">   ~~~~~~~~~~~~~~~~~~~~~~~~~~</text>
-<text x="28" y="189">   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</text>
-<text x="28" y="200">   ~~~~~......~~~~~~~~~~~~~~~~~</text>
-<text x="28" y="211">    ~~~~..=====.........~~~~~~~</text>
-<text x="28" y="222">    ~~~~..============..~~~~~~</text>
-<text x="28" y="233">    ~~~~..===========..~~~~~~</text>
-<text x="28" y="244">     ~~~~.===========..~~~~~~</text>
-<text x="28" y="255">     ~~~~.===========.~~~~~~</text>
-<text x="28" y="266">      ~~~~~~~.....==..~~~~~</text>
-<text x="28" y="277">              ~~~~~~~~~~~~~</text>
-<text x="28" y="288">                      ~~~~</text></g>
-        <g class="t edge" font-size="9.6"><text x="28" y="123">           ++---</text>
-<text x="28" y="134">       ////     -------------+</text>
-<text x="28" y="145">   ////                       +</text>
-<text x="28" y="156"> +-  -------------             \</text>
-<text x="28" y="167"> |               ------------- \</text>
-<text x="28" y="178">  |                          ---+</text>
-<text x="28" y="189">  |                             +</text>
-<text x="28" y="200">  |                            |</text>
-<text x="28" y="211">   |                           |</text>
-<text x="28" y="222">   |                          |</text>
-<text x="28" y="233">   |                         |</text>
-<text x="28" y="244">    |                        |</text>
-<text x="28" y="255">    |                       |</text>
-<text x="28" y="266">    +-                     |</text>
-<text x="28" y="277">      --------             |</text>
-<text x="28" y="288">              --------    |</text>
-<text x="28" y="299">                      ---+</text></g>
+        <g class="t logo" font-size="9.6"><text x="26" y="134">           @@@##@@@@</text>
+<text x="26" y="145">          @#=~   :*@#+</text>
+<text x="26" y="156">         @#:~      *#*:</text>
+<text x="26" y="167">         #*:        #*=</text>
+<text x="26" y="178">         #*=        #*:</text>
+<text x="26" y="189">         #*=        #*:</text>
+<text x="26" y="200">     ***####@@@@@@@@@@@*=~,</text>
+<text x="26" y="211">     ******************:,,,</text>
+<text x="26" y="222">     *******    *******:,,,</text>
+<text x="26" y="233">     *******    *******:,,,</text>
+<text x="26" y="244">     ********  ********:,,,</text>
+<text x="26" y="255">     ********   *******:,,,</text>
+<text x="26" y="266">     ******************:,,,</text>
+<text x="26" y="277">            ,,,~:==++**:</text></g>
+        <g class="t edge" font-size="9.6"><text x="26" y="123">               -</text>
+<text x="26" y="145">              -</text>
+<text x="26" y="189">       --   ------</text>
+<text x="26" y="222">            ::::</text>
+<text x="26" y="233">            ::::</text>
+<text x="26" y="244">             ::</text>
+<text x="26" y="255">             :::</text>
+<text x="26" y="277">           -            |</text></g>
       </g>
       <g class="cf cf29">
-        <g class="t logo" font-size="9.6"><text x="28" y="134">           ##..@@@</text>
-<text x="28" y="145">       ###...@@@@@@@@@@@..####</text>
-<text x="28" y="156">  ~~~           ####.....#####</text>
-<text x="28" y="167">  ~~~~~~~~~~~~~           #####</text>
-<text x="28" y="178">   ~~~~~~~~~~~~~~~~~~~~~~</text>
-<text x="28" y="189">   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~</text>
-<text x="28" y="200">   ~~~~~.....~~~~~~~~~~~~~~~~~~</text>
-<text x="28" y="211">   ~~~~~.+++++.......~~~~~~~~~</text>
-<text x="28" y="222">    ~~~~.++++++++++++..~~~~~~</text>
-<text x="28" y="233">    ~~~~..+++++++++++.~~~~~~~</text>
-<text x="28" y="244">    ~~~~..++++++++++..~~~~~~</text>
-<text x="28" y="255">     ~~~..++++++++++..~~~~~</text>
-<text x="28" y="266">        ~~~~~....+++.~~~~~~</text>
-<text x="28" y="277">               ~~~~~.~~~~~</text>
-<text x="28" y="288">                     ~~~~</text></g>
-        <g class="t edge" font-size="9.6"><text x="28" y="123">           +++----</text>
-<text x="28" y="134">       ////       ------------</text>
-<text x="28" y="145">  /////                       +</text>
-<text x="28" y="156"> +   -----------              |</text>
-<text x="28" y="167"> |             -----------     |</text>
-<text x="28" y="178">  |                      -------</text>
-<text x="28" y="189">  |                            +</text>
-<text x="28" y="200">  |                            |</text>
-<text x="28" y="211">  |                           |</text>
-<text x="28" y="222">   |                         |</text>
-<text x="28" y="233">   |                         |</text>
-<text x="28" y="244">   |                        |</text>
-<text x="28" y="255">    |                      |</text>
-<text x="28" y="266">    +---                   |</text>
-<text x="28" y="277">        -------           |</text>
-<text x="28" y="288">               ------    |</text>
-<text x="28" y="299">                     ---++</text></g>
+        <g class="t logo" font-size="9.6"><text x="26" y="134">           @@@###@@@*</text>
+<text x="26" y="145">          @#=~   ~=*#*</text>
+<text x="26" y="156">         @*~        **=</text>
+<text x="26" y="167">         #+~        ##+</text>
+<text x="26" y="178">         #+~        ##=</text>
+<text x="26" y="189">         #+~        ##=</text>
+<text x="26" y="200">     #########@@@@@@@@@@#</text>
+<text x="26" y="211">     *++++++++++++++++++=,</text>
+<text x="26" y="222">     *+++++++    +++++++=,</text>
+<text x="26" y="233">     *+++++++    +++++++=,</text>
+<text x="26" y="244">     *++++++++  ++++++++=</text>
+<text x="26" y="255">     *+++++++    +++++++=</text>
+<text x="26" y="266">     *++++++++++++++++++=</text>
+<text x="26" y="277">          ,,,,,,~~~::===:</text></g>
+        <g class="t edge" font-size="9.6"><text x="26" y="123">               -</text>
+<text x="26" y="145">              -</text>
+<text x="26" y="156">                   |</text>
+<text x="26" y="189">       --   -------</text>
+<text x="26" y="200">                         ||</text>
+<text x="26" y="211">                          |</text>
+<text x="26" y="222">             ::::         |</text>
+<text x="26" y="233">             :::          |</text>
+<text x="26" y="244">              ::         ||</text>
+<text x="26" y="255">             ::::        ||</text>
+<text x="26" y="266">                         ||</text>
+<text x="26" y="277">       ---               |</text></g>
       </g>
     </g>
-    <g opacity="0"><set attributeName="opacity" to="1" begin="1.15s" fill="freeze"/><text x="260" y="96" class="t key" font-size="14" textLength="117.6" lengthAdjust="spacingAndGlyphs">manuel@quilty0</text></g>
-    <g opacity="0"><set attributeName="opacity" to="1" begin="1.20s" fill="freeze"/><text x="260" y="118" class="t dim" font-size="14" textLength="117.6" lengthAdjust="spacingAndGlyphs">──────────────</text></g>
-    <g opacity="0"><set attributeName="opacity" to="1" begin="1.25s" fill="freeze"/><text x="260" y="140" class="t key" font-size="14" textLength="42.0" lengthAdjust="spacingAndGlyphs">Role:</text><text x="310.4" y="140" class="t wh" font-size="14" textLength="302.4" lengthAdjust="spacingAndGlyphs">Software Developer &amp; Data Enthusiast</text></g>
-    <g opacity="0"><set attributeName="opacity" to="1" begin="1.30s" fill="freeze"/><text x="260" y="162" class="t key" font-size="14" textLength="75.6" lengthAdjust="spacingAndGlyphs">Location:</text><text x="344.0" y="162" class="t wh" font-size="14" textLength="50.4" lengthAdjust="spacingAndGlyphs">Brazil</text></g>
-    <g opacity="0"><set attributeName="opacity" to="1" begin="1.35s" fill="freeze"/><text x="260" y="184" class="t key" font-size="14" textLength="84.0" lengthAdjust="spacingAndGlyphs">Languages:</text><text x="352.4" y="184" class="t wh" font-size="14" textLength="252.0" lengthAdjust="spacingAndGlyphs">typescript, python, javascript</text></g>
-    <g opacity="0"><set attributeName="opacity" to="1" begin="1.40s" fill="freeze"/><text x="260" y="206" class="t key" font-size="14" textLength="75.6" lengthAdjust="spacingAndGlyphs">Frontend:</text><text x="344.0" y="206" class="t wh" font-size="14" textLength="235.2" lengthAdjust="spacingAndGlyphs">react, html5, css3, tailwind</text></g>
-    <g opacity="0"><set attributeName="opacity" to="1" begin="1.45s" fill="freeze"/><text x="260" y="228" class="t key" font-size="14" textLength="42.0" lengthAdjust="spacingAndGlyphs">Data:</text><text x="310.4" y="228" class="t wh" font-size="14" textLength="268.8" lengthAdjust="spacingAndGlyphs">streamlit, pandas, visualization</text></g>
-    <g opacity="0"><set attributeName="opacity" to="1" begin="1.50s" fill="freeze"/><text x="260" y="250" class="t key" font-size="14" textLength="50.4" lengthAdjust="spacingAndGlyphs">Tools:</text><text x="318.8" y="250" class="t wh" font-size="14" textLength="168.0" lengthAdjust="spacingAndGlyphs">git, github, vs code</text></g>
-    <g opacity="0"><set attributeName="opacity" to="1" begin="1.55s" fill="freeze"/><text x="260" y="272" class="t key" font-size="14" textLength="50.4" lengthAdjust="spacingAndGlyphs">Focus:</text><text x="318.8" y="272" class="t wh" font-size="14" textLength="302.4" lengthAdjust="spacingAndGlyphs">web apps, wearables, data dashboards</text></g>
-    <g opacity="0"><set attributeName="opacity" to="1" begin="1.60s" fill="freeze"/><text x="260" y="294" class="t key" font-size="14" textLength="58.8" lengthAdjust="spacingAndGlyphs">Status:</text><text x="327.2" y="294" class="t wh" font-size="14" textLength="285.6" lengthAdjust="spacingAndGlyphs">learning in public, building tools</text></g>
-    <g opacity="0"><set attributeName="opacity" to="1" begin="1.75s" fill="freeze"/><rect x="260.0" y="324" width="25.2" height="15" fill="#1d1f21"/><rect x="260.0" y="339" width="25.2" height="15" fill="#666666"/><rect x="285.2" y="324" width="25.2" height="15" fill="#cc6666"/><rect x="285.2" y="339" width="25.2" height="15" fill="#ff7b7b"/><rect x="310.4" y="324" width="25.2" height="15" fill="#b5bd68"/><rect x="310.4" y="339" width="25.2" height="15" fill="#d7e086"/><rect x="335.6" y="324" width="25.2" height="15" fill="#f0c674"/><rect x="335.6" y="339" width="25.2" height="15" fill="#ffdc8c"/><rect x="360.8" y="324" width="25.2" height="15" fill="#81a2be"/><rect x="360.8" y="339" width="25.2" height="15" fill="#a5c4e0"/><rect x="386.0" y="324" width="25.2" height="15" fill="#b294bb"/><rect x="386.0" y="339" width="25.2" height="15" fill="#d4b5dd"/><rect x="411.2" y="324" width="25.2" height="15" fill="#8abeb7"/><rect x="411.2" y="339" width="25.2" height="15" fill="#a8dcd4"/><rect x="436.4" y="324" width="25.2" height="15" fill="#c5c8c6"/><rect x="436.4" y="339" width="25.2" height="15" fill="#ffffff"/></g>
+    <g opacity="0"><set attributeName="opacity" to="1" begin="1.15s" fill="freeze"/><text x="264" y="96" class="t key" font-size="14" textLength="117.6" lengthAdjust="spacingAndGlyphs">manuel@quilty0</text></g>
+    <g opacity="0"><set attributeName="opacity" to="1" begin="1.20s" fill="freeze"/><text x="264" y="118" class="t dim" font-size="14" textLength="117.6" lengthAdjust="spacingAndGlyphs">──────────────</text></g>
+    <g opacity="0"><set attributeName="opacity" to="1" begin="1.25s" fill="freeze"/><text x="264" y="140" class="t key" font-size="14" textLength="42.0" lengthAdjust="spacingAndGlyphs">Role:</text><text x="314.4" y="140" class="t wh" font-size="14" textLength="285.6" lengthAdjust="spacingAndGlyphs">Software Dev &amp; Cybersec Enthusiast</text></g>
+    <g opacity="0"><set attributeName="opacity" to="1" begin="1.30s" fill="freeze"/><text x="264" y="162" class="t key" font-size="14" textLength="75.6" lengthAdjust="spacingAndGlyphs">Location:</text><text x="348.0" y="162" class="t wh" font-size="14" textLength="50.4" lengthAdjust="spacingAndGlyphs">Brazil</text></g>
+    <g opacity="0"><set attributeName="opacity" to="1" begin="1.35s" fill="freeze"/><text x="264" y="184" class="t key" font-size="14" textLength="84.0" lengthAdjust="spacingAndGlyphs">Languages:</text><text x="356.4" y="184" class="t wh" font-size="14" textLength="252.0" lengthAdjust="spacingAndGlyphs">typescript, python, javascript</text></g>
+    <g opacity="0"><set attributeName="opacity" to="1" begin="1.40s" fill="freeze"/><text x="264" y="206" class="t key" font-size="14" textLength="75.6" lengthAdjust="spacingAndGlyphs">Frontend:</text><text x="348.0" y="206" class="t wh" font-size="14" textLength="235.2" lengthAdjust="spacingAndGlyphs">react, html5, css3, tailwind</text></g>
+    <g opacity="0"><set attributeName="opacity" to="1" begin="1.45s" fill="freeze"/><text x="264" y="228" class="t key" font-size="14" textLength="42.0" lengthAdjust="spacingAndGlyphs">Data:</text><text x="314.4" y="228" class="t wh" font-size="14" textLength="268.8" lengthAdjust="spacingAndGlyphs">streamlit, pandas, visualization</text></g>
+    <g opacity="0"><set attributeName="opacity" to="1" begin="1.50s" fill="freeze"/><text x="264" y="250" class="t key" font-size="14" textLength="75.6" lengthAdjust="spacingAndGlyphs">Security:</text><text x="348.0" y="250" class="t wh" font-size="14" textLength="277.2" lengthAdjust="spacingAndGlyphs">networking, linux, hardening, ops</text></g>
+    <g opacity="0"><set attributeName="opacity" to="1" begin="1.55s" fill="freeze"/><text x="264" y="272" class="t key" font-size="14" textLength="50.4" lengthAdjust="spacingAndGlyphs">Focus:</text><text x="322.8" y="272" class="t wh" font-size="14" textLength="294.0" lengthAdjust="spacingAndGlyphs">web apps, wearables, security tools</text></g>
+    <g opacity="0"><set attributeName="opacity" to="1" begin="1.60s" fill="freeze"/><text x="264" y="294" class="t key" font-size="14" textLength="58.8" lengthAdjust="spacingAndGlyphs">Status:</text><text x="331.2" y="294" class="t wh" font-size="14" textLength="285.6" lengthAdjust="spacingAndGlyphs">learning in public, building tools</text></g>
+    <g opacity="0"><set attributeName="opacity" to="1" begin="1.75s" fill="freeze"/><rect x="264.0" y="324" width="25.2" height="15" fill="#161b22"/><rect x="264.0" y="339" width="25.2" height="15" fill="#484f58"/><rect x="289.2" y="324" width="25.2" height="15" fill="#f85149"/><rect x="289.2" y="339" width="25.2" height="15" fill="#ff7b72"/><rect x="314.4" y="324" width="25.2" height="15" fill="#00b377"/><rect x="314.4" y="339" width="25.2" height="15" fill="#00e5a0"/><rect x="339.6" y="324" width="25.2" height="15" fill="#d29922"/><rect x="339.6" y="339" width="25.2" height="15" fill="#e3b341"/><rect x="364.8" y="324" width="25.2" height="15" fill="#0284c7"/><rect x="364.8" y="339" width="25.2" height="15" fill="#38bdf8"/><rect x="390.0" y="324" width="25.2" height="15" fill="#7c3aed"/><rect x="390.0" y="339" width="25.2" height="15" fill="#a78bfa"/><rect x="415.2" y="324" width="25.2" height="15" fill="#06b6d4"/><rect x="415.2" y="339" width="25.2" height="15" fill="#67e8f9"/><rect x="440.4" y="324" width="25.2" height="15" fill="#c9d1d9"/><rect x="440.4" y="339" width="25.2" height="15" fill="#f0f6fc"/></g>
     <g opacity="0"><set attributeName="opacity" to="1" begin="1.95s" fill="freeze"/>
       <text x="40" y="380" class="t key" font-size="14" textLength="159.6" lengthAdjust="spacingAndGlyphs">manuel@quilty0 ~ $ </text>
-      <clipPath id="bty0"><rect x="198.6" y="366" height="22" width="0"><animate attributeName="width" values="0;0;356.8;356.8;0;0" keyTimes="0;0.000;0.092;0.258;0.308;1" dur="12.0s" begin="1.95s" repeatCount="indefinite"/></rect></clipPath><text x="199.6" y="380" class="t wh" font-size="14" textLength="352.8" lengthAdjust="spacingAndGlyphs" clip-path="url(#bty0)">echo &quot;Software Developer &amp; Data Enthusiast&quot;</text>
-      <clipPath id="bty1"><rect x="198.6" y="366" height="22" width="0"><animate attributeName="width" values="0;0;323.2;323.2;0;0" keyTimes="0;0.333;0.425;0.592;0.642;1" dur="12.0s" begin="1.95s" repeatCount="indefinite"/></rect></clipPath><text x="199.6" y="380" class="t wh" font-size="14" textLength="319.2" lengthAdjust="spacingAndGlyphs" clip-path="url(#bty1)">echo &quot;Web Apps, Wearables &amp; Dashboards&quot;</text>
-      <clipPath id="bty2"><rect x="198.6" y="366" height="22" width="0"><animate attributeName="width" values="0;0;356.8;356.8;0;0" keyTimes="0;0.667;0.758;0.925;0.975;1" dur="12.0s" begin="1.95s" repeatCount="indefinite"/></rect></clipPath><text x="199.6" y="380" class="t wh" font-size="14" textLength="352.8" lengthAdjust="spacingAndGlyphs" clip-path="url(#bty2)">echo &quot;TypeScript, Python &amp; Practical Tools&quot;</text>
-      <rect class="cur" x="199.6" y="368" width="8.4" height="14" fill="#8abeb7"><animate attributeName="x" values="199.6;554.4;554.4;199.6;199.6;520.8;520.8;199.6;199.6;554.4;554.4;199.6;199.6" keyTimes="0;0.092;0.258;0.308;0.333;0.425;0.592;0.642;0.667;0.758;0.925;0.975;1" dur="12.0s" begin="1.95s" repeatCount="indefinite"/></rect>
+      <clipPath id="bty0"><rect x="198.6" y="366" height="22" width="0"><animate attributeName="width" values="0;0;348.4;348.4;0;0" keyTimes="0;0.000;0.092;0.258;0.308;1" dur="12.0s" begin="1.95s" repeatCount="indefinite"/></rect></clipPath><text x="199.6" y="380" class="t wh" font-size="14" textLength="344.4" lengthAdjust="spacingAndGlyphs" clip-path="url(#bty0)">echo &quot;Software Developer &amp; Cybersecurity&quot;</text>
+      <clipPath id="bty1"><rect x="198.6" y="366" height="22" width="0"><animate attributeName="width" values="0;0;331.6;331.6;0;0" keyTimes="0;0.333;0.425;0.592;0.642;1" dur="12.0s" begin="1.95s" repeatCount="indefinite"/></rect></clipPath><text x="199.6" y="380" class="t wh" font-size="14" textLength="327.6" lengthAdjust="spacingAndGlyphs" clip-path="url(#bty1)">echo &quot;Web Apps, Wearables &amp; Dashboards&quot;</text>
+      <clipPath id="bty2"><rect x="198.6" y="366" height="22" width="0"><animate attributeName="width" values="0;0;365.2;365.2;0;0" keyTimes="0;0.667;0.758;0.925;0.975;1" dur="12.0s" begin="1.95s" repeatCount="indefinite"/></rect></clipPath><text x="199.6" y="380" class="t wh" font-size="14" textLength="361.2" lengthAdjust="spacingAndGlyphs" clip-path="url(#bty2)">echo &quot;TypeScript, Python &amp; Practical Tools&quot;</text>
+      <rect class="cur" x="199.6" y="368" width="8.4" height="14" fill="#00e5a0"><animate attributeName="x" values="199.6;546.0;546.0;199.6;199.6;529.2;529.2;199.6;199.6;562.8;562.8;199.6;199.6" keyTimes="0;0.092;0.258;0.308;0.333;0.425;0.592;0.642;0.667;0.758;0.925;0.975;1" dur="12.0s" begin="1.95s" repeatCount="indefinite"/></rect>
     </g>
   </g>
   <rect width="840" height="418" fill="url(#scan)"/><rect width="840" height="418" fill="url(#vig)"/>
 </g>
-<rect x=".5" y=".5" width="839" height="417" rx="12" fill="none" stroke="#2a2e33"/>
+<rect x=".5" y=".5" width="839" height="417" rx="12" fill="none" stroke="#1f2937"/>
 </svg>
