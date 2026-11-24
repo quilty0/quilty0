@@ -94,6 +94,14 @@ I care about clean code, security-minded engineering, and tools that are straigh
   </picture>
 </div>
 
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=quilty0&theme=dark&background=0b0f14&border=00000000&ring=00e5a0&fire=38bdf8&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=00e5a0&sideLabels=e6edf3&dates=9aa7b5" />
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=quilty0&theme=default&background=transparent&border=00000000&ring=008052&fire=0284c7&currStreakLabel=008052" />
+    <img height="150" src="https://streak-stats.demolab.com/?user=quilty0&theme=dark&background=0b0f14&border=00000000&ring=00e5a0&fire=38bdf8&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=00e5a0&sideLabels=e6edf3&dates=9aa7b5" alt="GitHub Streak" />
+  </picture>
+</div>
+
 ### `~/stats`
 
 <div align="center">
@@ -106,14 +114,6 @@ I care about clean code, security-minded engineering, and tools that are straigh
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs?username=quilty0&layout=compact&langs_count=6&title_color=00e5a0&text_color=e6edf3&bg_color=0b0f14&hide_border=true" />
     <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs?username=quilty0&layout=compact&langs_count=6&title_color=0d1117&text_color=0d1117&bg_color=transparent&hide_border=true" />
     <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs?username=quilty0&layout=compact&langs_count=6&title_color=00e5a0&text_color=e6edf3&bg_color=0b0f14&hide_border=true" alt="Top Languages" />
-  </picture>
-</div>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=quilty0&theme=dark&background=0b0f14&border=00000000&ring=00e5a0&fire=38bdf8&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=00e5a0&sideLabels=00e5a0&dates=6b7683" />
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=quilty0&theme=default&background=transparent&border=00000000&ring=00a876&fire=0284c7" />
-    <img height="150" src="https://streak-stats.demolab.com/?user=quilty0&theme=dark&background=0b0f14&border=00000000&ring=00e5a0&fire=38bdf8&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=00e5a0&sideLabels=00e5a0&dates=6b7683" alt="GitHub Streak" />
   </picture>
 </div>
 
