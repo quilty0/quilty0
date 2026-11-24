@@ -20,7 +20,8 @@
 <g clip-path="url(#win)">
   <rect width="840" height="418" fill="#0b0f14"/>
   <rect width="840" height="34" fill="#121820"/>
-  <circle cx="22" cy="17" r="6" fill="#ff5f57"/><circle cx="42" cy="17" r="6" fill="#febc2e"/><circle cx="62" cy="17" r="6" fill="#28c840"/>
+  <rect x="16" y="8" width="66" height="18" rx="4" fill="#00e5a0" fill-opacity="0.14" stroke="#00e5a0" stroke-opacity="0.45"/>
+  <text x="49" y="21" text-anchor="middle" class="t key" font-size="11">0:zsh*</text>
   <text x="420" y="21" text-anchor="middle" class="bar">manuel@quilty0: ~ (neofetch --sec)</text>
   <text x="818" y="21" text-anchor="end" class="t badge">[SEC::OK]</text>
   <g filter="url(#glow)">
