@@ -121,5 +121,6 @@ Valorizo código limpo, boas práticas de segurança e ferramentas práticas, f�
 
 <p align="center">
   <a href="https://github.com/quilty0"><img src="https://img.shields.io/badge/github-@quilty0-0b0f14?style=for-the-badge&logo=github&logoColor=00e5a0" alt="GitHub"></a>
-  <a href="https://github.com/quilty0?tab=repositories"><img src="https://img.shields.io/badge/repos-explorar-0b0f14?style=for-the-badge&logo=git&logoColor=38bdf8" alt="Repositórios"></a>
+  <a href="https://www.linkedin.com/in/manuel-oliveira-6367ba308"><img src="https://img.shields.io/badge/linkedin-conectar-0b0f14?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzM4YmRmOCI%2BPHBhdGggZD0iTTE5IDNhMiAyIDAgMCAxIDIgMnYxNGEyIDIgMCAwIDEtMiAySDVhMiAyIDAgMCAxLTItMlY1YTIgMiAwIDAgMSAyLTJoMTRtLS41IDE1LjV2LTUuM2EzLjI2IDMuMjYgMCAwIDAtMy4yNi0zLjI2Yy0uODUgMC0xLjg0LjUyLTIuMjggMS4zdi0xLjExaC0yLjc5djguMzdoMi43OXYtNC45M2MwLS43Ny42Mi0xLjQgMS4zOS0xLjRhMS40IDEuNCAwIDAgMSAxLjQgMS40djQuOTNoMi43NU02Ljg4IDguNTZhMS42OCAxLjY4IDAgMCAwIDEuNjgtMS42OGMwLS45My0uNzUtMS42OS0xLjY4LTEuNjlhMS42OSAxLjY5IDAgMCAwLTEuNjkgMS42OWMwIC45My43NiAxLjY4IDEuNjkgMS42OG0xLjM5IDkuOTR2LTguMzdINS41djguMzdoMi43N3oiLz48L3N2Zz4%3D" alt="LinkedIn"></a>
+  <a href="https://github.com/quilty0?tab=repositories"><img src="https://img.shields.io/badge/repos-explorar-0b0f14?style=for-the-badge&logo=git&logoColor=a78bfa" alt="Repositórios"></a>
 </p>
