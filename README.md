@@ -6,6 +6,10 @@
   <img src="assets/header-neofetch.svg" width="100%" alt="neofetch terminal card with spinning 3D ASCII padlock">
 </p>
 
+<p align="center">
+  <sub>TypeScript · Python · JavaScript · React · Streamlit · Pandas · Linux · Cybersecurity · Git</sub>
+</p>
+
 ---
 
 Hi, I'm **Manuel Ferreira** (`@quilty0`).
@@ -14,41 +18,56 @@ I build web applications, automation workflows, and interactive data dashboards�
 
 I care about clean code, security-minded engineering, and tools that are straightforward to use and maintain.
 
-### `// focus`
+### `~/now`
 
-```toml
-[building]
-projects = ["TypeScript web apps", "Python data dashboards", "automation workflows"]
-
-[exploring]
-topics = ["cybersecurity fundamentals", "networking and Linux hardening", "security tooling"]
-
-[status]
-note = "rebuilding my public portfolio and shipping practical projects"
+```json
+{
+  "building": ["web apps in TypeScript", "Python data dashboards", "automation workflows"],
+  "exploring": ["cybersecurity fundamentals", "networking & Linux hardening", "security tooling"],
+  "status": "rebuilding my public portfolio & shipping practical projects"
+}
 ```
 
-### `// selected work`
+### `~/projects`
 
-- **gta6-auto-cortes** `private · active`
-  Automated video clipping pipeline with a web interface, containerized workflows, and GPU/Intel hardware acceleration.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>gta6-auto-cortes</strong> &nbsp;<sub><code>🔒 private</code></sub><br/>
+      Automated video clipping pipeline with a web interface, containerized workflows, and GPU/Intel hardware acceleration.<br/>
+      <sub><code>Python</code> · <code>Svelte</code> · <code>TypeScript</code> · <code>Docker</code></sub>
+    </td>
+    <td width="50%" valign="top">
+      <strong>n8n-ai-automation-pack</strong> &nbsp;<sub><code>🔒 private</code></sub><br/>
+      Curated pack of 5 AI-powered automation workflows built for n8n, packaged in both English and Portuguese.<br/>
+      <sub><code>n8n</code> · <code>AI</code> · <code>Automation</code></sub>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <strong>prospeccao-teresina</strong> &nbsp;<sub><code>🔒 private</code></sub><br/>
+      Local business prospecting toolkit combining automated lead pipelines, Kanban tracking, and custom landing page generation.<br/>
+      <sub><code>Python</code> · <code>JavaScript</code> · <code>HTML5</code> · <code>CSS3</code></sub>
+    </td>
+  </tr>
+</table>
 
-  `Python` · `Svelte` · `TypeScript` · `Docker`
+<sub>*Selected private projects currently in active development. New public open-source repositories coming soon.*</sub>
 
-- **n8n-ai-automation-pack** `private · active`
-  Curated pack of 5 AI-powered automation workflows built for n8n, packaged in both English and Portuguese.
+### `~/stack`
 
-  `n8n` · `AI` · `Automation`
+- **Languages:** TypeScript, Python, JavaScript, HTML5, CSS3
+- **Frontend & UI:** React, Tailwind CSS, Responsive Design
+- **Data & Dashboards:** Streamlit, Pandas, Data Visualization
+- **Security & Workflow:** Linux, Networking fundamentals, Git, GitHub, VS Code
 
-- **prospeccao-teresina** `private · active`
-  Local business prospecting toolkit combining automated lead pipelines, Kanban tracking, and custom landing page generation.
-
-  `Python` · `JavaScript` · `HTML5` · `CSS3`
-
-### `// toolbox`
-
-- **Web:** responsive interfaces with React and Tailwind CSS
-- **Data:** analysis and interactive dashboards with Pandas and Streamlit
-- **Workflow:** Linux, networking fundamentals, GitHub and VS Code
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,py,js,react,html,css,tailwind,nodejs,linux,git,github,vscode&theme=dark&perline=12" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ts,py,js,react,html,css,tailwind,nodejs,linux,git,github,vscode&theme=light&perline=12" />
+    <img src="https://skillicons.dev/icons?i=ts,py,js,react,html,css,tailwind,nodejs,linux,git,github,vscode&theme=dark&perline=12" alt="Tech Stack" />
+  </picture>
+</div>
 
 <p align="center">
   <img height="24" src="https://img.shields.io/badge/TypeScript-0b0f14?style=for-the-badge&logo=typescript&logoColor=00e5a0" alt="TypeScript" />
@@ -65,7 +84,7 @@ note = "rebuilding my public portfolio and shipping practical projects"
   <img height="24" src="https://img.shields.io/badge/Node.js-0b0f14?style=for-the-badge&logo=nodedotjs&logoColor=a78bfa" alt="Node.js" />
 </p>
 
-### `// activity`
+### `~/activity`
 
 <div align="center">
   <picture>
@@ -75,13 +94,7 @@ note = "rebuilding my public portfolio and shipping practical projects"
   </picture>
 </div>
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=quilty0&theme=dark&background=0b0f14&border=00000000&ring=00e5a0&fire=38bdf8&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=00e5a0&sideLabels=e6edf3&dates=9aa7b5" />
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=quilty0&theme=default&background=transparent&border=00000000&ring=008052&fire=0284c7&currStreakLabel=008052" />
-    <img height="150" src="https://streak-stats.demolab.com/?user=quilty0&theme=dark&background=0b0f14&border=00000000&ring=00e5a0&fire=38bdf8&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=00e5a0&sideLabels=e6edf3&dates=9aa7b5" alt="GitHub Streak" />
-  </picture>
-</div>
+### `~/stats`
 
 <div align="center">
   <picture>
@@ -93,6 +106,14 @@ note = "rebuilding my public portfolio and shipping practical projects"
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs?username=quilty0&layout=compact&langs_count=6&title_color=00e5a0&text_color=e6edf3&bg_color=0b0f14&hide_border=true" />
     <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs?username=quilty0&layout=compact&langs_count=6&title_color=0d1117&text_color=0d1117&bg_color=transparent&hide_border=true" />
     <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs?username=quilty0&layout=compact&langs_count=6&title_color=00e5a0&text_color=e6edf3&bg_color=0b0f14&hide_border=true" alt="Top Languages" />
+  </picture>
+</div>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=quilty0&theme=dark&background=0b0f14&border=00000000&ring=00e5a0&fire=38bdf8&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=00e5a0&sideLabels=00e5a0&dates=6b7683" />
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=quilty0&theme=default&background=transparent&border=00000000&ring=00a876&fire=0284c7" />
+    <img height="150" src="https://streak-stats.demolab.com/?user=quilty0&theme=dark&background=0b0f14&border=00000000&ring=00e5a0&fire=38bdf8&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=00e5a0&sideLabels=00e5a0&dates=6b7683" alt="GitHub Streak" />
   </picture>
 </div>
 
